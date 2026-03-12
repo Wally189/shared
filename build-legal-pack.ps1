@@ -430,7 +430,7 @@ $footer
 
 $sites = @(
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3"
+    Folder = "C:\AG\ReposTemplates"
     StylePath = "shared/style.css"
     ScriptPath = "shared/app.js"
     ThemeAttribute = ""
@@ -462,7 +462,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\church-template"
+    Folder = "C:\AG\ReposTemplates\church-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ""
@@ -490,7 +490,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\shop-template"
+    Folder = "C:\AG\ReposTemplates\shop-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ""
@@ -518,7 +518,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\tradesperson-template"
+    Folder = "C:\AG\ReposTemplates\tradesperson-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ""
@@ -546,7 +546,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\small-business-template"
+    Folder = "C:\AG\ReposTemplates\small-business-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ""
@@ -574,7 +574,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\personal-project-template"
+    Folder = "C:\AG\ReposTemplates\personal-project-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ""
@@ -601,7 +601,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\pub-template"
+    Folder = "C:\AG\ReposTemplates\pub-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ' data-theme="orange"'
@@ -629,7 +629,7 @@ $sites = @(
     )
   }
   [pscustomobject]@{
-    Folder = "C:\AG\Repos3\waylight-atlantic-admin-template"
+    Folder = "C:\AG\ReposTemplates\waylight-atlantic-admin-template"
     StylePath = "assets/style.css"
     ScriptPath = "assets/app.js"
     ThemeAttribute = ' data-theme="atlantic"'
@@ -667,3 +667,4 @@ foreach ($site in $sites) {
     Write-Utf8NoBom -Path $path -Content $content
   }
 }
+
