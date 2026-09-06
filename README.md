@@ -1,33 +1,31 @@
 # Shared
 
-Shared repository for reusable material connected to Alan's website and project workflow.
+Private support repository for mixed reusable technical material connected to Alan's project and tooling workflow.
 
-This repository has not yet been fully classified. Until it is understood, it should be treated as an internal or unpromoted support repo rather than a public portfolio item.
+## Current status
 
-## Status
-
-- **Classification:** Unknown / possible tool repo
-- **Current status:** Needs inspection
-- **Public showcase status:** Do not pin or promote
+- **Visibility:** PRIVATE
+- **Classification:** Inspected — private support / mixed reusable technical material
+- **Public showcase status:** Do not pin, promote or treat as a public portfolio item
+- **Federation role:** Not designated as the federation-wide Crown OS shared repository
+- **Institutional authority:** Not a source of specialist House truth, Crown governance records or general institutional documentation
 
 ## Intended use
 
-This repo may contain shared assets, snippets, components, styles, documentation fragments or reusable support material. Its exact purpose needs to be confirmed before it is used publicly.
+This repository may hold bounded reusable assets, scripts, components, styles and other technical support material where version control is useful. Individual contents should be retained, consolidated or retired only when a real maintenance, reuse or archive trigger arises.
 
-## Governance note
+## Authority boundary
 
-This file is a management wrapper only. It does not change any published website content or project behaviour.
+Google Drive remains authoritative for Crown OS institutional documents, governance records, business records and human-readable canonical institutional knowledge unless a specific current authority states otherwise.
 
-## Do not include
+GitHub is authoritative only for version-controlled technical artefacts maintained in the relevant repository and authoritative branch.
 
-Do not include passwords, tokens, API keys, private financial information, medical information, private employment material, grievance material, third-party personal data, or confidential client/community information.
+See `CHANGE-CONTROL.md` for this repository's bounded technical-change workflow and `PROJECT-STATUS.md` for its current classification.
 
-## Current governance action
+## Information restrictions
 
-Inspect the contents and decide whether this repository should be:
+Do not include passwords, tokens, API keys, credentials, unnecessary personal data, private financial or employment material, medical information, grievance material, confidential third-party information, or specialist House records that belong in another controlled system.
 
-- a public tools repo
-- a private internal support repo
-- merged into another repo
-- archived
-- deleted manually if no longer useful
+## Change discipline
+
+For non-trivial technical changes, use the proportionate controlled path defined in `CHANGE-CONTROL.md`: Issue → branch → change → test → pull request → review → merge → verify → close.
