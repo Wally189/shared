@@ -71,3 +71,15 @@ Resistant staff were implicitly a change-management problem rather than potentia
 - addresses resistant users proportionately: PASS
 - does not require AI adoption: PASS
 - keeps changes small/reversible: PASS
+
+
+## Post-validation correction
+
+A subsequent source check found that the phrase “published NHS examples report lower resistance where staff were involved” overstated the available evidence. The public page has been corrected to the narrower supported proposition: NHS guidance recommends shared purpose, staff involvement, process mapping, measurement, testing and spread/adoption.
+
+The pass also added:
+- a reusable Spreadsheet Triage worksheet;
+- an explicit source for task-context training from Microsoft adoption guidance;
+- links from the Microsoft 365, Toolkit and Quiet modernisation pages.
+
+This strengthens the reference model by correcting an overclaim rather than retaining wording merely because it sounded plausible.

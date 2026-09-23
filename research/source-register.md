@@ -29,6 +29,7 @@ Research position: 23 September 2026. Re-check currentness before operational us
 | M365-003 | VENDOR PRODUCT GUIDANCE | Lists Choice/Lookup/validation | Keep constrained shared data consistent |
 | ADOPT-001 | VENDOR ADOPTION GUIDANCE | Microsoft Champion Programme | Peer support/champions for Office 365 adoption |
 | ADOPT-002 | PUBLIC-SECTOR IMPROVEMENT PRACTICE | NHS England change model | Shared purpose, involvement, measurement, small tests, spread |
+| ADOPT-003 | VENDOR TRAINING GUIDANCE | Microsoft streamline user training | Training in day-to-day task context; accommodate learning styles |
 | ACC-002 | ACCESSIBILITY STANDARD | WCAG 2.2 Use of Color | Colour is not the sole carrier of meaning |
 
 See sources.html for live URLs.
@@ -41,4 +42,5 @@ See sources.html for live URLs.
 - M365-003: https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/list-and-library-column-types-and-options
 - ADOPT-001: https://learn.microsoft.com/en-us/office365/customlearning/champ_getstarted
 - ADOPT-002: https://www.england.nhs.uk/long-read/how-to-improve-care-related-processes-in-general-practice/
+- ADOPT-003: https://adoption.microsoft.com/en-us/streamline-user-training/
 - ACC-002: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color
