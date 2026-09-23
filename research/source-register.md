@@ -82,3 +82,30 @@ See sources.html for live URLs.
 - WRITE-002: https://www.gov.uk/service-manual/design/sending-emails-and-text-messages
 - COMM-001: https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications
 - COMM-002: https://www.communications.gov.uk/publication/the-principles-of-behaviour-change-communications/
+
+
+## Mailbox / Outlook additions — 23 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| MAIL-001 | VENDOR PRODUCT GUIDANCE | Microsoft Outlook best practices | Folder/rule/Quick Step patterns; policy caveat |
+| MAIL-002 | VENDOR PRODUCT GUIDANCE | Mailbox Cleanup | Inspect size/old/large items in classic Outlook |
+| MAIL-003 | VENDOR PRODUCT GUIDANCE | Outlook Archive | Archive vs Online Archive distinction |
+| MAIL-004 | VENDOR PRODUCT GUIDANCE | Shared mailboxes | Purpose, admin setup and access |
+| MAIL-005 | VENDOR PRODUCT GUIDANCE | Shared mailbox settings in new Outlook | Client/permission-dependent settings |
+| MAIL-006 | VENDOR RECORDS FEATURE | Outlook retention policies | Organisation-controlled messaging records management |
+| DATA-003 | ICO DATA-PROTECTION GUIDANCE | Data minimisation | Adequate, relevant, limited personal data |
+| INFO-003 | ICO RECORDS GUIDANCE | Retention | Documented retention schedules and actions |
+| BRAND-001 | HISTORIC PUBLIC BRAND REFERENCE | WECA Brand Guidelines 2021 | Muted palette reference only; no endorsement/current-brand claim |
+
+- MAIL-001: https://support.microsoft.com/en-us/outlook/best-practices-for-outlook
+- MAIL-002: https://support.microsoft.com/en-us/outlook/manage-my-mailbox-size-in-outlook
+- MAIL-003: https://support.microsoft.com/en-us/outlook/mail/archive-in-outlook-for-windows
+- MAIL-004: https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook
+- MAIL-005: https://support.microsoft.com/en-us/outlook/sharing/manage-shared-mailbox-settings-in-new-outlook
+- MAIL-006: https://support.microsoft.com/en-US/Outlook/assign-and-view-retention-policies-on-email-messages
+- DATA-003: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/
+- INFO-003: https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/records-management/retention/
+- BRAND-001: https://communitylearningwest.net/wp-content/uploads/2022/11/new-WECA-Brand-Guidelines-Jan-2021.pdf
+
+BRAND-001 is used only as a visual familiarity reference. The live site remains independent and unofficial.
