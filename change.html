@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiet modernisation — Modern Democratic Services</title>
+<meta name="description" content="How to modernise a working legacy service without creating a culture war">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap">
+<p class="site-name"><a href="index.html">Modern Democratic Services</a></p>
+<p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p>
+<nav aria-label="Primary"><a href="index.html">Start</a>
+<a href="model.html">Operating model</a>
+<a href="law.html">Law & governance</a>
+<a href="committees.html">Committees & boards</a>
+<a href="microsoft.html">Microsoft 365</a>
+<a href="ai.html">AI workbench</a>
+<a href="toolkit.html">Toolkit</a>
+<a href="roadmap.html">Roadmap</a>
+<a href="lab.html">Lab</a>
+<a href="sources.html">Sources</a></nav>
+</div></header>
+<main id="main" class="wrap">
+<p class="kicker">Modernise the system without declaring war on the people who keep it running</p>
+<h1>Quiet modernisation</h1>
+
+<p class="lede">Many legacy office systems are untidy, duplicated and visually eccentric — yet they still work because experienced people know how to operate them. The objective is not to prove that the old system is foolish. It is to preserve what makes it reliable, remove avoidable friction and let a better method become normal one useful change at a time.</p>
+
+<p class="maxim">Treat the spreadsheet as evidence of a need. Treat the workaround as evidence of a missing control. Treat resistance as information.</p>
+
+<h2>The first rule: do not confuse ugly with broken</h2>
+<p>A workbook full of highlighting, copied tabs and manual notes may contain hidden institutional knowledge: who checks what, what counts as urgent, which dates matter, where exceptions occur, and what staff are frightened of losing. Before replacing it, reconstruct the function it performs.</p>
+<p><span class="label">Transferable government practice</span> GOV.UK guidance on legacy systems says to understand the existing landscape and user needs before replacing technology, rather than simply recreating the same system in a newer product. It also advises involving the people affected by a change. <a href="https://www.gov.uk/service-manual/technology/moving-away-from-legacy-systems">Read the legacy-systems guidance</a>.</p>
+
+<h2>A practical migration pattern</h2>
+<table>
+<thead><tr><th>Stage</th><th>What happens</th><th>What does not happen</th></tr></thead>
+<tbody>
+<tr><td>1. Observe</td><td>Inventory files, fields, colours, duplicate trackers, formulas, owners, recurring tasks and informal rules.</td><td>No criticism, deletion or redesign.</td></tr>
+<tr><td>2. Stabilise</td><td>Name files consistently, identify the current version, document ownership, protect formulas and make basic dates/statuses explicit.</td><td>No platform migration.</td></tr>
+<tr><td>3. Structure</td><td>Replace avoidable free text with validated choices, dates, people, yes/no fields or lookups where the data genuinely has a fixed meaning.</td><td>No restriction where narrative judgement is actually needed.</td></tr>
+<tr><td>4. De-duplicate</td><td>Identify one authoritative record for each piece of structured state and make duplicates read-only or retire them after a safe transition.</td><td>No sudden deletion of familiar safety nets.</td></tr>
+<tr><td>5. Improve the home</td><td>Move appropriate shared state from spreadsheets into Lists or another existing canonical system; keep Excel for calculations and analysis.</td><td>No “SharePoint because SharePoint” rebuild.</td></tr>
+<tr><td>6. Automate</td><td>Add reminders, views and deterministic calculations only after the process is stable.</td><td>No AI or automation compensating for an unclear process.</td></tr>
+</tbody>
+</table>
+
+<h2>Spreadsheet archaeology</h2>
+<p>Before changing an inherited workbook, answer:</p>
+<ul>
+<li>What job is this spreadsheet actually doing?</li>
+<li>Who relies on it, and what would they notice if it disappeared?</li>
+<li>Which columns are data, which are commentary, and which are disguised workflow?</li>
+<li>Do font colour, fill colour, bold text or highlighting encode a status that should be an explicit field?</li>
+<li>Are the same facts retyped into another sheet, mailbox, calendar or committee system?</li>
+<li>Are formulas, hidden sheets, filters or manual sorting part of the operating logic?</li>
+<li>Which version is authoritative?</li>
+<li>What is the smallest change that removes one source of error without changing the user's mental model?</li>
+</ul>
+
+<h2>Replace decoration with information</h2>
+<p>A professional system does not need to be colourless, but colour should have a documented purpose. Personal or decorative palettes should gradually give way to a restrained neutral presentation in which colour is reserved for a small number of semantic states.</p>
+<ul>
+<li>Use normal dark text for ordinary content rather than red text as an informal alert mechanism.</li>
+<li>If something is <strong>Overdue</strong>, <strong>Draft</strong> or <strong>Blocked</strong>, store that as a status value and display the word — do not make the user infer it from a cell colour.</li>
+<li>Use highlighting sparingly and consistently.</li>
+<li>Do not frame old colour choices as a judgement on the person, age, gender or taste of whoever created them. The reason to standardise is consistency, legibility and meaning.</li>
+</ul>
+<p><span class="label">Accessibility</span> WCAG 2.2 guidance states that colour must not be the only way information is distinguished. GOV.UK accessibility guidance applies the same principle to public services. <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">W3C: use of colour</a>.</p>
+
+<h2>Stop free text pretending to be structured data</h2>
+<p>If a field can only legitimately contain one of a small number of states, do not ask people to remember the spelling. Use the product's own controls.</p>
+<ul>
+<li><strong>Excel:</strong> data validation can restrict a cell to predefined choices, dates, numbers or other valid inputs.</li>
+<li><strong>Microsoft Lists:</strong> Choice and Lookup columns can constrain values and column validation can explain what valid data looks like.</li>
+<li><strong>Free text remains appropriate</strong> for notes, rationale, nuance and material that genuinely cannot be reduced to a controlled value.</li>
+</ul>
+<p><a href="https://support.microsoft.com/en-gb/excel/get-started/apply-data-validation-to-cells?nochrome=true">Microsoft: Excel data validation</a> · <a href="https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/list-and-library-column-types-and-options">Microsoft: List column types</a></p>
+
+<h2>The psychology of adoption</h2>
+<p>Successful adoption is usually less about persuading people that technology is exciting and more about reducing threat.</p>
+<ol>
+<li><strong>Protect expertise.</strong> Say “you know where this process breaks; help me make that visible” rather than “this spreadsheet is terrible”.</li>
+<li><strong>Lead with relief.</strong> Remove one repeated annoyance before asking anybody to learn a new system.</li>
+<li><strong>Preserve agency.</strong> Pilot with people, not on them. Let users influence labels, views and the practical sequence of change.</li>
+<li><strong>Make the good path easier.</strong> A drop-down, sensible default, pre-filled template or useful view reduces the need for instructions.</li>
+<li><strong>Keep the first change familiar.</strong> Improve the structure behind an existing workflow before introducing a completely new interface.</li>
+<li><strong>Use respected peers.</strong> A colleague who can demonstrate a useful shortcut is often more persuasive than a formal “transformation” message.</li>
+<li><strong>Give resistant experts a serious role.</strong> Ask them to find failure cases. Their objections may reveal dependencies that an enthusiastic adopter misses.</li>
+<li><strong>Never use public competence comparisons.</strong> Training should preserve dignity and make it safe to ask basic questions.</li>
+<li><strong>Do not make AI the sales pitch.</strong> Introduce AI only where the underlying work, source boundary and verification method are already trusted.</li>
+</ol>
+<p><span class="label">Adoption evidence</span> Microsoft recommends champion networks to support Office 365 adoption. NHS improvement guidance emphasises shared purpose, staff involvement, measurement and small tests of change; published NHS examples report lower resistance where staff were involved in identifying the problem and shaping the change. <a href="https://learn.microsoft.com/en-us/office365/customlearning/champ_getstarted">Microsoft champion programme guidance</a> · <a href="https://www.england.nhs.uk/long-read/how-to-improve-care-related-processes-in-general-practice/">NHS change model</a>.</p>
+
+<h2>Micro-coaching beats “digital transformation training”</h2>
+<p>For staff with low confidence, teach in the context of the task they already need to complete. Five minutes showing how to use a controlled status field, search a library or recover a previous version can be more valuable than a general hour on Microsoft 365.</p>
+<p>A useful support ladder is:</p>
+<pre>SHOW ONCE
+→ DO TOGETHER
+→ PERSON DOES IT WITH PROMPT
+→ SHORT WRITTEN AID
+→ PERSON DOES IT UNAIDED
+→ IMPROVE THE INTERFACE SO THE AID IS NEEDED LESS</pre>
+
+<h2>How to handle resistance</h2>
+<p>Resistance is not one thing. Diagnose it before responding.</p>
+<table>
+<thead><tr><th>What it may mean</th><th>Useful response</th></tr></thead>
+<tbody>
+<tr><td>“I do not see the benefit.”</td><td>Demonstrate a real saved step or reduced error.</td></tr>
+<tr><td>“I think this will break.”</td><td>Run a parallel or reversible pilot and show the rollback.</td></tr>
+<tr><td>“I will lose knowledge/status/control.”</td><td>Make their expertise part of the design and document it visibly.</td></tr>
+<tr><td>“I do not know how to use this.”</td><td>Private task-based coaching; remove unnecessary complexity.</td></tr>
+<tr><td>“The old method works.”</td><td>Agree. Change only the part with a demonstrated cost or risk.</td></tr>
+<tr><td>“I dislike change on principle.”</td><td>Keep the scope small, make the required process explicit, and let evidence rather than argument carry the case.</td></tr>
+</tbody>
+</table>
+
+<h2>The quiet-modernisation test</h2>
+<p>A change is ready to spread when it can answer yes to most of these:</p>
+<ul>
+<li>Does it solve a problem staff already recognise?</li>
+<li>Is the new method easier or safer in normal use?</li>
+<li>Can somebody explain the change without using the words transformation, innovation or AI?</li>
+<li>Does it reduce rather than add duplicate recording?</li>
+<li>Can the old method be recovered during the pilot if something was missed?</li>
+<li>Have at least one enthusiastic user and one sceptical user tested it?</li>
+<li>Does the interface reduce memory burden?</li>
+<li>Are status and meaning explicit rather than encoded in personal formatting conventions?</li>
+<li>Is there evidence of an improvement in time, errors, retrieval or confidence?</li>
+</ul>
+
+<div class="note"><p><strong>The desired cultural effect is almost boring:</strong> six months later, people discover that files are easier to find, statuses are consistent, fewer things are typed twice, fewer reminders depend on memory, and the new method has become “how we do it” without anybody having endured a grand digital revolution.</p></div>
+</main>
+<footer class="site-footer"><div class="wrap">
+<p><strong>Independent and unofficial.</strong> This is a reference model, not employer procedure, legal advice or official governance guidance.</p>
+<p>Research position: 23 September 2026. <a href="about.html">About and publication safety</a>.</p>
+</div></footer>
+</body></html>
