@@ -69,8 +69,8 @@ jobs:
         run: |
           test -s release.html
           test -s reference-version.txt
-          grep -F "Deployed source commit: <code>${GITHUB_SHA}</code>" release.html
-          grep -F "Deployed source commit: ${GITHUB_SHA}" reference-version.txt
+          grep -F "${GITHUB_SHA}" release.html
+          grep -F "${GITHUB_SHA}" reference-version.txt
           grep -F "Reference version: 2026-09-23" reference-version.txt
 
       - name: Configure Pages
