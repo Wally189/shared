@@ -44,7 +44,18 @@ CORRECTION
 RETEST
 PASS / PARTIAL / FAIL
 KEEP / CHANGE / RETIRE</pre>
-<h2>Current status</h2><p>This site defines the tests. It does <strong>not</strong> claim that a particular Microsoft Copilot configuration has passed them yet. Test product behaviour in the actual approved environment.</p>
+<h2>First public regression set</h2>
+<p>The architecture has now been checked against six known-answer public-source cases. These cover source supersession, authority-type boundaries, temporal governance change, governance review, recommendation completeness and provenance over time.</p>
+<table><thead><tr><th>Case</th><th>Engine</th><th>Expected behaviour</th><th>Status</th></tr></thead><tbody>
+<tr><td>R01</td><td>Research & Evidence</td><td>2024 scrutiny guidance outranks superseded 2019 guidance for current use.</td><td>Reference PASS</td></tr>
+<tr><td>R02</td><td>Governance Localiser</td><td>Do not transplant a principal-council access rule into a combined authority without localisation.</td><td>Reference PASS</td></tr>
+<tr><td>R03</td><td>Committee Intelligence</td><td>Bristol Mayor/Cabinet records become historic after the May 2024 committee-system transition.</td><td>Reference PASS</td></tr>
+<tr><td>R04</td><td>Committee Intelligence</td><td>Governance structures carry review/currentness state rather than being timeless.</td><td>Reference PASS</td></tr>
+<tr><td>R05</td><td>Paper Readiness</td><td>A material approval omitted from formal recommendations is decision-critical.</td><td>Known-answer design PASS</td></tr>
+<tr><td>R06</td><td>Context Builder</td><td>Apparently conflicting governance sources are reconciled by effective period where evidence supports it.</td><td>Reference PASS</td></tr>
+</tbody></table>
+<p><a href="tests/first-public-regression-results.md">Read the full test record</a>.</p>
+<h2>Current status</h2><p>The reference architecture now has public known-answer evidence. It still does <strong>not</strong> claim that a particular Microsoft Copilot configuration has passed runtime testing. Product behaviour must be tested in the actual approved environment before runtime reliability is asserted.</p>
 </main>
 <footer class="site-footer"><div class="wrap">
 <p><strong>Independent and unofficial.</strong> This is a reference model, not employer procedure, legal advice or official governance guidance. Verify current law, authority type, current constitution and competent professional advice before relying on a proposition.</p>
