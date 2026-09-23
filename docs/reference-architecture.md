@@ -11,6 +11,18 @@ Governance; body management; forward planning; reports; meeting secretariat; dec
 ## Ten AI engines
 Context Builder; Research & Evidence; Governance Localiser; Committee Intelligence; Decision & Paper Readiness; Meeting & Formal Record; Forward Plan & Workflow; Drafting & Communication; Data & Performance; Challenge & Improvement.
 
+## Common engine support layer
+Router → Case Bus → bounded engine(s) → Verification Gate → human action in an approved tool → evidence → Progress Block.
+
+Support controls:
+- one common Case Bus preserves sources, facts, local practice, authority limits, capability state, unknowns and handoffs;
+- one Microsoft 365 Capability Registry records AVAILABLE / LIMITED / NOT AVAILABLE / UNKNOWN with client, permissions, dependencies, source and last-verified date;
+- a lightweight Verification Gate is mandatory before material multi-engine output or a real process/tool change;
+- human tool adapters translate recommendations into bounded actions in Excel/Power Query, Outlook/shared mailboxes, OneNote, OneDrive/SharePoint/Lists and Copilot;
+- the support layer is static and public-safe: no backend, API, database, message queue or Power Automate dependency.
+
+For broad modernisation, establish the current operator's private working baseline first: role/scope, recurring work, cycles/deadlines, professional interfaces, authoritative systems, capability constraints, learning needs and evidence of reliable outcomes. Improve personal execution first; then make proven methods portable and team-reusable.
+
 ## Eight registers
 Bodies & Powers; Meetings & Forward Work; Papers & Clearances; Decisions; Actions; Membership & Appointments; Governance Sources & Changes; Improvement Experiments.
 
