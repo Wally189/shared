@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WECA Local Discovery — Modern Democratic Services</title><meta name="description" content="Public-source local discovery method for the West of England Combined Authority"><link rel="stylesheet" href="style.css"></head><body>
+<a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="wrap"><p class="site-name"><a href="index.html">Modern Democratic Services</a></p><p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p><nav aria-label="Primary"><a href="index.html">Start</a> <a href="copilot-start.html">Copilot coach</a> <a href="law.html">Law & governance</a> <a href="committees.html">Committees</a> <a href="change.html">Quiet modernisation</a> <a href="support.html">Engine support</a> <a href="sources.html">Sources</a></nav></div></header>
+<main id="main" class="wrap"><p class="kicker">Worked local profile — public sources only</p><h1>WECA Local Discovery</h1>
+<p class="lede">Before Copilot tells somebody how WECA “does things”, it should build the current local picture from public authoritative sources and label what it still does not know. Only then should it interpret an internal tracker, procedure or inherited habit supplied through an approved workplace route.</p>
+<div class="warning"><p><strong>This is not an official WECA procedure.</strong> It is an independent public-source discovery method. Public information can reveal the formal governance surface; it cannot reveal every current internal workflow, tracker, clearance convention or Microsoft 365 implementation.</p></div>
+
+<h2>The evidence labels</h2>
+<table><thead><tr><th>Label</th><th>Meaning</th></tr></thead><tbody>
+<tr><td>PUBLICLY VERIFIED</td><td>Current proposition supported by an official WECA/ModernGov/legislation source.</td></tr>
+<tr><td>LOCAL-USER-SUPPLIED</td><td>Information or document supplied through a permitted workplace route. Useful locally; not suitable for publication merely because Copilot has seen it.</td></tr>
+<tr><td>LOCAL-UNVERIFIED</td><td>Acronym, habit, tracker or claim whose exact current function/authority has not yet been established.</td></tr>
+<tr><td>INFERENCE</td><td>A reasoned hypothesis. Must be tested before it becomes process design.</td></tr>
+</tbody></table>
+
+<h2>Public WECA discovery order</h2>
+<ol>
+<li><strong>Official democracy / transparency page.</strong> Identify the public description of meetings, decisions, forward work and transparency.</li>
+<li><strong>Current constitution.</strong> Follow the official Constitution page to the current ModernGov constitution and record version/currentness before relying on it.</li>
+<li><strong>Current bodies.</strong> Reconstruct Combined Authority / Joint Committee / Overview & Scrutiny / Audit and any current successor/additional bodies from current official records.</li>
+<li><strong>Forward work.</strong> Inspect the current forward plan / issue history: decision type, proposed decision-maker, publication/decision timing and related documents.</li>
+<li><strong>Officer / delegated decisions.</strong> Inspect current ModernGov officer decision records and published decision notices.</li>
+<li><strong>Published assurance / accounts / frameworks.</strong> Use these to discover control structures and historic statements about internal processes, but label their date. Do not silently treat a 2023 description as the 2026 process.</li>
+<li><strong>National-local cross-check.</strong> Use the Governance Localiser to check that the local process fits current legislation/orders and the current constitution.</li>
+</ol>
+
+<h2>What is publicly established today</h2>
+<p><span class="label">Publicly verified</span> WECA's public democracy page identifies meetings/decisions and a forward plan as parts of its decision-making transparency. The official Constitution page points users to the constitution on ModernGov. Current ModernGov records publish officer/delegated decisions with decision-maker, status, key-decision status, decision/publication dates and accompanying documents.</p>
+<p><span class="label">Publicly verified</span> Published 2026 records explicitly use the term <strong>Officer Decision Notice</strong>. Therefore <strong>ODN</strong> may be expanded to Officer Decision Notice when the source/context is WECA officer decisions.</p>
+<p><span class="label">Historic public evidence</span> The authority's published 2022/23 accounts said an intranet page gave officers information about the stages for formal and urgent decision-making. That is useful evidence that an internal process/guidance layer existed at that time; it is <strong>not</strong> proof of the exact 2026 intranet content.</p>
+<p><span class="label">Local-unverified</span> This public review does not establish a WECA-specific meaning or authoritative process for an <strong>“ODP tracker”</strong>. Do not guess. Ask the operator what it stands for, what it records, who updates it and what outcome depends on it, or inspect a permitted current example.</p>
+
+<h2>The local-process crosswalk</h2>
+<p>When the user supplies an approved local artefact—ODP/ODN tracker, spreadsheet, SOP, intranet instruction, mailbox workflow—Copilot should build this table before proposing replacement:</p>
+<table><thead><tr><th>Local element</th><th>What job is it doing?</th><th>Public/formal counterpart</th><th>Control worth preserving?</th><th>Problem</th><th>Candidate improvement</th></tr></thead><tbody>
+<tr><td>e.g. ODN tracker row</td><td>Tracks draft decision / owner / clearance / publication?</td><td>Forward plan / scheme of delegation / ModernGov officer decision / ODN</td><td>Owner/deadline/authority/history may be essential</td><td>Duplicate entry? uncontrolled status? free text?</td><td>Repair / List / view / Power Query / better handoff—only after evidence</td></tr>
+</tbody></table>
+
+<h2>The questions Dave must ask about an ODP/ODN tracker</h2>
+<ul>
+<li>What does the acronym mean here?</li>
+<li>What is the tracker for: pipeline, clearance, publication, decision record, action follow-up, or several things?</li>
+<li>Which fields are mandatory because of law/constitution/process, and which exist because “we've always had that column”?</li>
+<li>Who creates a row, who updates it, who relies on it and who closes it?</li>
+<li>What event starts the process? What event proves completion?</li>
+<li>Where is the canonical decision once complete?</li>
+<li>What is copied manually into/from ModernGov, emails, Word forms or another spreadsheet?</li>
+<li>What colours/free-text codes have hidden meaning?</li>
+<li>Are there linked workbooks, queries, formulas or downstream reports?</li>
+<li>What fails if the tracker is unavailable?</li>
+<li>What current local instruction authorises the workflow?</li>
+</ul>
+
+<h2>Then find the least disruptive option</h2>
+<pre>OPTION A — REPAIR
+Keep the current tracker; remove defects, standardise fields, document ownership.
+
+OPTION B — CONSOLIDATE
+Keep Excel/Microsoft 365 but remove duplicate trackers or manual re-entry.
+
+OPTION C — STRUCTURE
+Move shared finite state into an appropriate List/library/workflow while preserving familiar views.
+
+OPTION D — INTEGRATE / AUTOMATE
+Only after the process is stable and the required capability is verified in the Capability Registry: use Power Query, supported connectors, rules or controlled automation to reduce deterministic re-keying. UNKNOWN is not a design dependency.</pre>
+<p>The test is not “is SharePoint newer?” It is “does this remove real duplication/risk while preserving authority, history and usability?”</p>
+
+<h2>People: gentle without games</h2>
+<p>Do not label a colleague insecure, technophobic or obstructive. Record only observable barriers: uncertainty, skill/confidence, workload, process knowledge, stated objection, dependency or loss of a familiar control. A sceptical experienced colleague should be asked to identify edge cases the proposed change might break.</p>
+<p>The adoption sequence is: <strong>show the existing problem → preserve the useful control → prototype beside it → let the user break it → prove the outcome → write the plain-English SOP → retire the duplicate only when safe.</strong></p>
+
+<h2>WECA Local Discovery prompt</h2>
+<pre>GOAL: Build the current public WECA Democratic Services/process baseline for [topic] before advising me.
+SOURCES: Current official WECA website, current ModernGov constitution/meetings/forward-plan/officer-decision records, legislation and current official guidance.
+CLASSIFY: PUBLICLY VERIFIED / LOCAL-USER-SUPPLIED / LOCAL-UNVERIFIED / INFERENCE.
+DO NOT: infer internal acronyms, publish internal material, or assume an old public document describes the current internal process.
+THEN: compare the public baseline with the local tracker/process I describe or am permitted to attach.
+OUTPUT:
+1. Public source map
+2. Formal body/decision/process map
+3. What is genuinely known about the local artefact
+4. Unknowns/questions
+5. Duplication and hidden controls
+6. No more than 3 improvement options
+7. One reversible next step
+8. Plain-English SOP for the step
+9. Progress Block for OneNote
+STOP after the one next step unless I ask for the full roadmap.</pre>
+
+<p><a href="templates/local-process-archaeology.md">Use the Local Process Archaeology template</a>.</p>
+</main><footer class="site-footer"><div class="wrap"><p><strong>Independent and unofficial.</strong> This page uses public sources as a worked local-discovery example and does not represent WECA policy, procedure or endorsement.</p><p>Research position: 23 September 2026.</p></div></footer></body></html>
