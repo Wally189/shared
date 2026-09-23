@@ -1,31 +1,25 @@
-# Shared
+# Modern Democratic Services
 
-Private support repository for mixed reusable technical material connected to Alan's project and tooling workflow.
+A public, independent reference architecture for excellent Democratic Services.
 
-## Current status
+This repository exists solely for this project.
 
-- **Visibility:** PRIVATE
-- **Classification:** Inspected — private support / mixed reusable technical material
-- **Public showcase status:** Do not pin, promote or treat as a public portfolio item
-- **Federation role:** Not designated as the federation-wide Crown OS shared repository
-- **Institutional authority:** Not a source of specialist House truth, Crown governance records or general institutional documentation
+## Core proposition
 
-## Intended use
+`authority → evidence → advice → decision route → transparent consideration → formal decision → accurate record → action → institutional memory`
 
-This repository may hold bounded reusable assets, scripts, components, styles and other technical support material where version control is useful. Individual contents should be retained, consolidated or retired only when a real maintenance, reuse or archive trigger arises.
+The static site is deliberately plain and has no required JavaScript or third-party runtime dependencies.
 
-## Authority boundary
+## Status
 
-Google Drive remains authoritative for Crown OS institutional documents, governance records, business records and human-readable canonical institutional knowledge unless a specific current authority states otherwise.
+Research position: 23 September 2026.
 
-GitHub is authoritative only for version-controlled technical artefacts maintained in the relevant repository and authoritative branch.
+Independent and unofficial. Not employer procedure, legal advice or official governance guidance.
 
-See `CHANGE-CONTROL.md` for this repository's bounded technical-change workflow and `PROJECT-STATUS.md` for its current classification.
+## Safety
 
-## Information restrictions
+Only public-safe material belongs here. Do not commit confidential workplace information, personal data, credentials, internal screenshots, identifiable interpersonal commentary or unpublished employer procedures.
 
-Do not include passwords, tokens, API keys, credentials, unnecessary personal data, private financial or employment material, medical information, grievance material, confidential third-party information, or specialist House records that belong in another controlled system.
+## Deployment
 
-## Change discipline
-
-For non-trivial technical changes, use the proportionate controlled path defined in `CHANGE-CONTROL.md`: Issue → branch → change → test → pull request → review → merge → verify → close.
+The included GitHub Pages workflow deploys the repository root when Pages is available for the repository.
