@@ -27,7 +27,8 @@
 <p class="kicker">OneDrive for working space; SharePoint for shared knowledge and state</p>
 <h1>Microsoft 365</h1>
 
-<p class="lede">The reference Microsoft 365 architecture separates personal working space, shared team knowledge, structured state, calculation and the organisation's existing canonical systems.</p>
+<p class="lede">The reference Microsoft 365 architecture separates personal working space, shared team knowledge, structured state, calculation and the organisation's existing canonical systems. It is a destination, not an excuse to recreate every existing spreadsheet in a shinier product.</p>
+<div class="warning"><p><strong>Legacy first.</strong> Before creating a List or library, inventory the current spreadsheets, folders, colour conventions, formulas, linked files, owners and unofficial workarounds. If a neon cell or red comment carries operational meaning, capture that meaning before removing the formatting. See <a href="adoption.html">Quiet modernisation</a> and the <a href="templates/legacy-system-inventory.md">Legacy System Inventory</a>.</p></div>
 <h2>OneDrive</h2><p>OneDrive is suitable for personal work in progress. It should not become the only home of institutional memory.</p><pre>00 Inbox
 10 Active Work
 20 Copilot Cases
@@ -45,7 +46,21 @@
 <h3>Pages</h3><p>Home · How Democratic Services works · Upcoming cycle · New starter · Key procedures · Help / professional interfaces.</p>
 <h3>Document libraries</h3><ul><li>Governance & Constitution</li><li>Procedures & Templates</li><li>Research & Authoritative Sources</li><li>Training & Handover</li><li>AI Engines & Prompt Library — only where organisational policy permits.</li></ul><p>Do not duplicate meeting papers merely to make SharePoint look complete if a committee-management system already owns those records.</p>
 <h3>Microsoft Lists</h3><ul><li>Bodies & Powers</li><li>Meetings & Forward Work</li><li>Papers & Clearances</li><li>Decisions</li><li>Actions</li><li>Membership & Appointments</li><li>Governance Sources & Changes</li><li>Improvement Experiments</li></ul>
-<h3>Excel</h3><p>Use for calculations, analysis, models and exploration. Do not make a multi-user spreadsheet canonical simply because everybody knows how to colour cells.</p>
+<h3>Design fields, not coloured cells</h3>
+<p>Microsoft Lists and SharePoint support typed columns, required values, controlled choices and validation. Use those controls when the information has a defined meaning. A status such as <em>Waiting for legal clearance</em> belongs in a Status/Dependency field; it should not exist only as red text typed into a comments box.</p>
+<table><thead><tr><th>If the information is…</th><th>Prefer</th><th>Avoid as the primary control</th></tr></thead><tbody>
+<tr><td>A fixed status</td><td>Choice column</td><td>Free text such as “DONE!!!” or coloured wording</td></tr>
+<tr><td>A person responsible</td><td>Person field</td><td>Initials buried in notes</td></tr>
+<tr><td>A due date</td><td>Date field</td><td>A date typed into narrative text</td></tr>
+<tr><td>Yes/no</td><td>Yes/No field</td><td>Y, Yes, yep, tick, colour</td></tr>
+<tr><td>Long explanation</td><td>Multiline text</td><td>Forcing narrative into a coded status field</td></tr>
+</tbody></table>
+<p><span class="label">Vendor guidance</span> Microsoft documents required fields, Choice columns and validation for consistent entries. Formatting can then highlight a structured status without changing the underlying data.</p>
+<h3>Colour is presentation, not data</h3>
+<p>Colours have no gender in this architecture. Use colour only when it has a defined functional purpose, uses an accessible palette and is accompanied by a text label or other cue. Pink, purple, yellow or red are not intrinsically wrong; arbitrary decoration and colour-only meaning are the problem. WCAG 2.2 explicitly says colour must not be the only way information is conveyed.</p>
+<h3>Excel</h3><p>Use for calculations, analysis, models and exploration. Do not make a multi-user spreadsheet canonical simply because everybody knows how to colour cells. Before retiring an existing workbook, check formulas, macros, linked workbooks, hidden sheets, filters, recurring copy/paste steps and downstream users.</p>
+<h3>Filenames and versions</h3>
+<p>Use different rules for different contexts. Personal working files can benefit from a date and clear purpose. Shared canonical documents should normally have a stable descriptive name and use SharePoint/OneDrive version history and metadata instead of proliferating names such as <code>FINAL_v7_REALLYFINAL_23Sep.docx</code>. Microsoft 365 version history can track and restore earlier versions when configured.</p>
 <h2>Metadata</h2><p>Body ID · record type · meeting date · decision date · subject · owner role · status · authority/power · publication class · retention class · effective from · review date · source status · predecessor · successor · version status.</p>
 </main>
 <footer class="site-footer"><div class="wrap">

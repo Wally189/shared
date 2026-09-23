@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiet modernisation — Modern Democratic Services</title><meta name="description" content="How to modernise a functioning legacy service without creating a change battle"><link rel="stylesheet" href="style.css"></head>
+<body><a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap"><p class="site-name"><a href="index.html">Modern Democratic Services</a></p><p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p>
+<nav aria-label="Primary"><a href="index.html">Start</a> <a href="model.html">Operating model</a> <a href="law.html">Law & governance</a> <a href="committees.html">Committees & boards</a> <a href="microsoft.html">Microsoft 365</a> <a href="ai.html">AI workbench</a> <a href="toolkit.html">Toolkit</a> <a href="roadmap.html">Roadmap</a> <a href="lab.html">Lab</a> <a href="sources.html">Sources</a></nav></div></header>
+<main id="main" class="wrap"><p class="kicker">Change the friction before you change the identity</p><h1>Quiet modernisation</h1>
+<p class="lede">A messy system that works is not a failed system. It is usually a mixture of sound professional practice, accumulated workarounds, duplicated state, visual folklore and individual memory. Modernisation should preserve what works, expose what is hidden and remove friction gradually enough that people experience the change as help rather than conquest.</p>
+
+<h2>Psychology, not manipulation</h2>
+<p>“Subtle” should mean low-drama, respectful and easy to adopt—not deceptive. Do not manufacture consensus, hide consequences, shame people for low digital confidence or make an old route deliberately unusable before a replacement is proven. Behavioural insight is useful when it makes the better route easier, clearer and timely while leaving people informed about what is changing.</p>
+<p><span class="label">Transferable practice</span> The Behavioural Insights Team's EAST framework summarises behaviour design as Easy, Attractive, Social and Timely. GOV.UK assisted-digital guidance separately says to understand why people are not adopting a digital route and provide support rather than simply forcing them online.</p>
+
+<h2>1. Respect the current system before touching it</h2>
+<p>Assume every oddity may have a reason until checked. A fluorescent cell, red wording, a duplicated tab or a strangely named file might be pointless—or it might encode an exception nobody documented. Ask:</p>
+<ul><li>Who uses this?</li><li>What decision or action does it support?</li><li>What does each colour, abbreviation or free-text convention mean?</li><li>Which formulas, hidden sheets, macros or linked workbooks exist?</li><li>Who consumes the output?</li><li>What breaks if it disappears tomorrow?</li></ul>
+<p>Use the <a href="templates/legacy-system-inventory.md">Legacy System Inventory</a>.</p>
+
+<h2>2. Decode the visual folklore</h2>
+<p>Translate visual meaning into explicit data before removing it.</p>
+<table><thead><tr><th>Legacy convention</th><th>Find out what it means</th><th>Modern destination</th></tr></thead><tbody>
+<tr><td>Neon yellow row</td><td>Urgent? Waiting? Meeting this week? Decoration?</td><td>Named Status/Priority/Meeting Date field plus optional accessible formatting</td></tr>
+<tr><td>Red text inside a comments field</td><td>Blocked? Late? Needs approval?</td><td>Structured dependency or exception field</td></tr>
+<tr><td>Pink/purple tabs or fills</td><td>Does the colour encode anything?</td><td>If no: neutralise. If yes: preserve the meaning as text/data, then standardise appearance.</td></tr>
+<tr><td>Initials typed into cells</td><td>Owner or last editor?</td><td>Person/owner field</td></tr>
+<tr><td>“FINAL FINAL v8” filename</td><td>Which is actually current?</td><td>Stable document identity + version history/metadata</td></tr>
+</tbody></table>
+<p>Colour is allowed as presentation; it should not be the database. WCAG 2.2 says colour must not be the only visual means of conveying information.</p>
+
+<h2>3. Triage spreadsheets before replacing them</h2>
+<p>Classify each workbook or tracker:</p>
+<pre>CANONICAL — currently the accepted record
+WORKING — personal/team work in progress
+EXPORT — generated from another authoritative system
+DUPLICATE — repeats another source with no independent purpose
+HISTORIC — retained for evidence/reference
+UNKNOWN — purpose or ownership not yet understood</pre>
+<p>Do not migrate an UNKNOWN workbook simply because it exists. Do not delete one until dependencies are understood.</p>
+
+<h2>4. Reduce free text by design</h2>
+<p>Instructions such as “please only type Red/Amber/Green in this box” are weak controls. Where values are genuinely finite, use a Choice, Date, Person, Yes/No or other appropriate typed field. Keep free text for actual narrative. Microsoft Lists/SharePoint supports required fields, controlled choices and validation.</p>
+
+<h2>5. Keep the first replacement boringly familiar</h2>
+<p>The first version should often preserve familiar language, ordering and core workflow. Improve one thing—search, duplication, ownership, deadline visibility—without simultaneously changing terminology, hierarchy, colours, roles and meeting practice. A familiar-looking improvement creates less cognitive load and gives people evidence that change can help rather than erase their competence.</p>
+
+<h2>6. Treat resistance as diagnostic information</h2>
+<p>“I don't like it” can mean several different things:</p>
+<table><thead><tr><th>Possible cause</th><th>Useful response</th></tr></thead><tbody>
+<tr><td>Real process edge case</td><td>Ask the person to break the prototype; add the missing case.</td></tr>
+<tr><td>Loss of confidence</td><td>Provide side-by-side help and a one-page job aid.</td></tr>
+<tr><td>Loss of control/status</td><td>Give the person a meaningful review/ownership role rather than dismissing their expertise.</td></tr>
+<tr><td>Bad timing/workload</td><td>Delay the change or reduce its scope.</td></tr>
+<tr><td>Habit only</td><td>Make the new route simpler and let repeated convenience do the persuading.</td></tr>
+<tr><td>Legitimate disagreement</td><td>Compare evidence and outcomes; do not convert disagreement into a personality diagnosis.</td></tr>
+</tbody></table>
+<p>A particularly sceptical experienced user can be an excellent red-team tester. They know where tidy diagrams fail in real life.</p>
+
+<h2>7. Use assisted adoption</h2>
+<p>Do not call it remedial training. Provide help at the point of need: “show me once”, a short screen-share, a one-page sequence, a trusted colleague sitting beside someone for their first use, and an obvious route back to help. GOV.UK digital take-up guidance emphasises understanding reluctance and supporting digital confidence rather than assuming everybody can or should switch unaided.</p>
+
+<h2>8. Run old and new together only with an exit rule</h2>
+<p>Parallel running is useful for proving accuracy. Permanent parallel running is duplication. Before a pilot starts, define:</p>
+<ul><li>what is being compared;</li><li>how long the parallel period lasts;</li><li>what constitutes a material mismatch;</li><li>who decides the replacement is safe;</li><li>what happens to the old tracker afterwards;</li><li>how rollback works if the new method fails.</li></ul>
+<p>GOV.UK legacy guidance similarly recommends involving affected stakeholders, realistic prototypes and an agreed changeover rather than indefinite coexistence.</p>
+
+<h2>9. Make the better behaviour the easier behaviour</h2>
+<p>Prefer a single current link over emailed attachments; a pre-filtered view over hunting through tabs; a dropdown over memorising acceptable wording; an automatic date field over typing the same date twice; a stable document name over guessing which “final” is final. The psychological strategy is not persuasion theatre. It is removing reasons to prefer the old workaround.</p>
+
+<h2>10. Do not lead with AI</h2>
+<p>If AI helps privately with research, checking or drafting within policy, fine. The team-visible improvement should usually be described in ordinary operational terms: <em>fewer duplicate entries</em>, <em>one current version</em>, <em>clear ownership</em>, <em>easier handover</em>. Staff do not need to buy into an AI strategy to benefit from a better process.</p>
+
+<h2>Language that lowers the temperature</h2>
+<table><thead><tr><th>Avoid</th><th>Prefer</th></tr></thead><tbody>
+<tr><td>“We're replacing your spreadsheet.”</td><td>“I'm testing whether we can remove the duplicate entry from this step.”</td></tr>
+<tr><td>“This process is outdated.”</td><td>“The process works; I'm trying to make this part easier to maintain.”</td></tr>
+<tr><td>“You need training.”</td><td>“I'll run through the new bit with you the first time.”</td></tr>
+<tr><td>“Stop using colours.”</td><td>“Let's make the status explicit so it still works in print and for everyone.”</td></tr>
+<tr><td>“AI transformation.”</td><td>“A checking/research aid.”</td></tr>
+</tbody></table>
+
+<h2>Success measures</h2>
+<p>Measure less duplicate entry, fewer corrections, faster retrieval, fewer “which version?” questions, fewer uncontrolled values, fewer steps requiring one person's memory, adoption without repeated support, and whether the new method survives absence/leave. Do not measure success by how many spreadsheets were deleted or how many staff used AI.</p>
+</main>
+<footer class="site-footer"><div class="wrap"><p><strong>Independent and unofficial.</strong> This is a reference model, not employer procedure, legal advice or official governance guidance.</p><p>Research position: 23 September 2026. <a href="about.html">About and publication safety</a>.</p></div></footer></body></html>

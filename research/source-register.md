@@ -25,3 +25,18 @@ Research position: 23 September 2026. Re-check currentness before operational us
 | EX-002 | IMPROVEMENT EXAMPLE | Bristol committee review | Governance itself can be reviewed |
 
 See sources.html for live URLs.
+
+
+## Legacy modernisation and adoption sources added 23 September 2026
+
+- GDS — Moving away from legacy systems: https://www.gov.uk/service-manual/technology/moving-away-from-legacy-systems
+- GDS — Encouraging people to use your service online / assisted digital principles: https://www.gov.uk/service-manual/helping-people-to-use-your-service/encouraging-people-to-use-your-digital-service
+- GDS — Implement a data quality action plan: https://www.gov.uk/government/publications/implement-a-data-quality-action-plan
+- Microsoft — Create columns and validation: https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/create-a-column-in-a-list-or-library
+- Microsoft — List/library column types: https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/list-and-library-column-types-and-options
+- Microsoft — Versioning: https://support.microsoft.com/en-us/sharepoint/lists/documents-and-library/enable-and-configure-versioning-for-a-list-or-library
+- Microsoft — List view formatting: https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/formatting-list-views
+- W3C WCAG 2.2 — Use of Color: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color
+- Behavioural Insights Team — EAST: https://www.bi.team/east-tool/methodology/
+
+Use these as TRANSFERABLE / VENDOR / ACCESSIBILITY guidance, not as local employer procedure.
