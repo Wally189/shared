@@ -96,7 +96,6 @@ See sources.html for live URLs.
 | MAIL-006 | VENDOR RECORDS FEATURE | Outlook retention policies | Organisation-controlled messaging records management |
 | DATA-003 | ICO DATA-PROTECTION GUIDANCE | Data minimisation | Adequate, relevant, limited personal data |
 | INFO-003 | ICO RECORDS GUIDANCE | Retention | Documented retention schedules and actions |
-| BRAND-001 | HISTORIC PUBLIC BRAND REFERENCE | WECA Brand Guidelines 2021 | Muted palette reference only; no endorsement/current-brand claim |
 
 - MAIL-001: https://support.microsoft.com/en-us/outlook/best-practices-for-outlook
 - MAIL-002: https://support.microsoft.com/en-us/outlook/manage-my-mailbox-size-in-outlook
@@ -106,9 +105,7 @@ See sources.html for live URLs.
 - MAIL-006: https://support.microsoft.com/en-US/Outlook/assign-and-view-retention-policies-on-email-messages
 - DATA-003: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/
 - INFO-003: https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/records-management/retention/
-- BRAND-001: https://communitylearningwest.net/wp-content/uploads/2022/11/new-WECA-Brand-Guidelines-Jan-2021.pdf
 
-BRAND-001 is used only as a visual familiarity reference. The live site remains independent and unofficial.
 
 
 ## Five-pass audit additions — 23 September 2026
@@ -140,22 +137,21 @@ BRAND-001 is used only as a visual familiarity reference. The live site remains 
 - XSEC-010: https://www.nationalarchives.gov.uk/information-management/manage-information/planning/records-management-code/
 
 
-## WECA local-discovery additions — 23 September 2026
 
-| ID | Class | Source | Main use |
-|---|---|---|---|
-| WECA-001 | OFFICIAL LOCAL GOVERNANCE | WECA democracy/funding/transparency | Local public meetings/decisions/forward-work entry point |
-| WECA-002 | OFFICIAL LOCAL GOVERNANCE | WECA Constitution page / ModernGov | Current local constitutional baseline |
-| WECA-003 | OFFICIAL LOCAL DECISION RECORD | ModernGov delegated/officer decisions | Current officer decision publication trail |
-| WECA-004 | OFFICIAL LOCAL DECISION DOCUMENT | 2026 Officer Decision Notice example | Establishes ODN terminology and fields |
-| WECA-005 | HISTORIC PUBLIC CONTROL EVIDENCE | 2022/23 draft accounts | Historic statement that internal guidance covered formal/urgent decision stages |
-| WECA-006 | OFFICIAL LOCAL ASSURANCE FRAMEWORK | Local Growth Assurance Framework Jan 2025 | Governance/scrutiny/funding assurance context |
+## Local-organisation discovery method — 23 September 2026
 
-- WECA-001: https://www.westofengland-ca.gov.uk/about-us/democracy-funding-transparency/
-- WECA-002: https://www.westofengland-ca.gov.uk/about-us/democracy-funding-transparency/constitution/
-- WECA-003: https://westofengland-ca.moderngov.co.uk/mgDelegatedDecisions.aspx
-- WECA-004: https://westofengland-ca.moderngov.co.uk/documents/s11342/Bristol%20Temple%20Quarter%20Joint%20Delivery%20Team%20grant%20allocation%20reprofile.pdf
-- WECA-005: https://www.westofengland-ca.gov.uk/wp-content/uploads/2023/06/Draft-Statement-of-Accounts-for-the-Year-Ending-31st-March-2023-1.pdf
-- WECA-006: https://www.westofengland-ca.gov.uk/wp-content/uploads/2025/01/WoE-Local-Growth-Assurance-Framework-January-25-1.pdf
+No organisation-specific source is embedded in this public reference site.
 
-Public search on 23 September 2026 did not establish a WECA-specific authoritative meaning for "ODP tracker". Treat that term as LOCAL-UNVERIFIED until a current authoritative local source or permitted internal document establishes it.
+When localising in an authorised workplace session, use this hierarchy:
+1. current official organisation governance/democracy landing page;
+2. current constitution or governing documents;
+3. enabling legislation/orders/instruments;
+4. current body/committee directory and terms of reference;
+5. calendars, agendas, minutes and decision notices/records;
+6. forward plan or equivalent;
+7. officer/delegated decision records;
+8. transparency, accounts, assurance and audit material;
+9. permitted local documents supplied in the workplace context.
+
+Label propositions PUBLICLY VERIFIED / LOCAL-USER-SUPPLIED / LOCAL-UNVERIFIED / INFERENCE.
+If the organisation cannot be established reliably from user-supplied or authorised workplace context, state ORGANISATION UNKNOWN and ask.
