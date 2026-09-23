@@ -155,3 +155,21 @@ When localising in an authorised workplace session, use this hierarchy:
 
 Label propositions PUBLICLY VERIFIED / LOCAL-USER-SUPPLIED / LOCAL-UNVERIFIED / INFERENCE.
 If the organisation cannot be established reliably from user-supplied or authorised workplace context, state ORGANISATION UNKNOWN and ask.
+
+
+## Security remediation additions — 23 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| SEC-002 | NCSC SECURITY GUIDANCE | Prompt injection is not SQL injection | External data/instruction confusion; impact reduction |
+| SEC-003 | NCSC AI THREAT GUIDANCE | Understanding adversarial attacks against ML and AI | Indirect prompt injection from reference content/tools |
+| SEC-004 | MICROSOFT SECURITY GUIDANCE | Copilot prompt defence in depth | Layered Copilot prompt-injection/web/DLP controls |
+| SEC-005 | MICROSOFT DATA PROTECTION | Enterprise data protection in Copilot | Prompt/response/Graph protection and web-query boundary |
+| SEC-006 | GITHUB SECURITY GUIDANCE | Secure accounts / protected branches | MFA/passkeys and branch protection recommendations |
+
+- SEC-002: https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection
+- SEC-003: https://www.ncsc.gov.uk/paper/understanding-adversarial-attacks-against-machine-learning-and-ai
+- SEC-004: https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-prompt-defense-in-depth
+- SEC-005: https://learn.microsoft.com/microsoft-365/copilot/enterprise-data-protection
+- SEC-006A: https://docs.github.com/en/code-security/tutorials/implement-supply-chain-best-practices/securing-accounts
+- SEC-006B: https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches

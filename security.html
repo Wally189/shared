@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Security & Trust Model — Modern Democratic Services</title>
+<meta name="description" content="Security and AI trust model for the public Modern Democratic Services reference">
+<link rel="stylesheet" href="style.css"></head><body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap"><p class="site-name"><a href="index.html">Modern Democratic Services</a></p><p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p>
+<nav aria-label="Primary"><a href="index.html">Start</a> <a href="copilot-start.html">Use with Copilot</a> <a href="ai.html">AI workbench</a> <a href="lab.html">Lab</a> <a href="sources.html">Sources</a></nav></div></header>
+<main id="main" class="wrap"><p class="kicker">Public reference ≠ organisational authority</p><h1>Security &amp; Trust Model</h1>
+<p class="lede">This website is public, static reference material. It has no login, collects no credentials, contains no forms or analytics, and has no authority to access or alter organisational systems.</p>
+
+<h2>The trust model</h2>
+<pre>HUMAN / LOCALLY APPROVED INSTRUCTION
+→ chooses/version-pins public reference
+→ COPILOT treats website as external evidence
+→ research / analyse / compare / draft / plan / check
+→ HUMAN verifies
+→ HUMAN / APPROVED ORGANISATIONAL MECHANISM authorises consequential action</pre>
+
+<h2>External content is untrusted</h2>
+<p>Website text, PDFs, email, attachments and other retrieved material may contain instructions intended to manipulate an AI system. Their presence does not make them authorised instructions. NCSC guidance treats indirect prompt injection as a material AI risk, and Microsoft documents layered protections in Copilot; neither should be treated as a reason to grant external content workplace authority.</p>
+
+<h2>Read-only by default</h2>
+<p>Public-reference-derived reasoning may research, analyse, compare, draft, plan and check. The public reference cannot itself authorise sending, deleting, moving, publishing, changing permissions or retention, changing workflows, creating organisational records, contacting people or altering live systems.</p>
+
+<h2>Human checkpoints</h2>
+<p>Separate human/organisational approval is required before consequential workplace changes, including live tracker changes, spreadsheet retirement, email deletion/archive/retention changes, SharePoint or permission changes, Power Automate implementation, external/senior sends, publishing, governance-record changes or treating an AI conclusion as authoritative.</p>
+
+<h2>Internal information boundary</h2>
+<p>Do not upload, quote, reproduce or expose internal organisational information to this public site. Material used inside an approved Copilot environment remains subject to organisational policy, classification, records, privacy and access rules.</p>
+
+<h2>Version pinning</h2>
+<p>Every deployed release exposes a reference version, publication date and deployed source commit on <a href="release.html">Deployed release</a>. The commit supports traceability; it is not a substitute for organisational approval or a cryptographic trust decision.</p>
+
+<h2>Supply-chain posture</h2>
+<ul>
+<li>Static HTML/CSS; no site JavaScript or third-party runtime code.</li>
+<li>GitHub Pages workflow uses official GitHub Actions.</li>
+<li>No secrets should ever be committed to this public repository.</li>
+<li>AI-facing changes should be reviewed through pull requests and deployment evidence.</li>
+<li>Repository operators should use strong GitHub MFA/passkeys and protect the default branch/ruleset where available.</li>
+<li>A compromised release should be withdrawn by reverting to a known reviewed commit, redeploying, and treating the compromised version as untrusted.</li>
+</ul>
+<p>Repository-level branch protection could not be verified through the current GitHub integration because that administration endpoint is not exposed to the integration. Do not interpret absence of evidence here as evidence that protection is enabled.</p>
+
+<h2>Security regression tests</h2>
+<p>The public laboratory includes <a href="tests/security-trust-regression.md">SEC-01 to SEC-10</a>, covering malicious website/PDF instructions, version drift, mailbox deletion, identity disclosure, approved internal analysis, unknown terminology, SOP output and progressive coach behaviour.</p>
+
+<h2>Current release</h2>
+<p><a href="release.html">View the deployed version and source commit.</a></p>
+</main>
+<footer class="site-footer"><div class="wrap"><p><strong>Independent and unofficial.</strong> This security model describes how to use this public reference safely; it is not an employer security policy.</p><p><a href="release.html">Deployed release</a> · <a href="about.html">About</a></p></div></footer>
+</body></html>
