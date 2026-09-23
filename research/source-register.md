@@ -18,9 +18,17 @@ Research position: 23 September 2026. Re-check currentness before operational us
 | DATA-001 | LAW | Data (Use and Access) Act 2025 | Data-law changes; commencement varies |
 | SCR-001 | STATUTORY GUIDANCE | GOV.UK scrutiny guidance 2024 | Effective scrutiny |
 | M365-001 | VENDOR GUIDANCE | Microsoft SharePoint IA | Flat IA, metadata, search |
+| M365-002 | VENDOR GUIDANCE | Microsoft Excel data validation | Restrict input types/values; input and error guidance |
+| M365-003 | VENDOR GUIDANCE | Microsoft Lists column types | Choice/Lookup fields for consistent structured values |
+| ADOPT-001 | VENDOR ADOPTION GUIDANCE | Microsoft 365 Adoption | Engage, train, champions/communities, governance |
+| ADOPT-002 | VENDOR TRAINING GUIDANCE | Microsoft user training | Task-context training; accommodate learning styles |
+| ADOPT-003 | VENDOR ADOPTION GUIDANCE | Microsoft Copilot adoption | Early adopters/champions, feedback, continuous improvement |
 | AI-001 | VENDOR GUIDANCE | Microsoft Copilot prompts | Goal/context/expectations/source and verification |
 | SEC-001 | SECURITY GUIDANCE | NCSC AI security | Hallucination and prompt injection |
 | SERV-001 | TRANSFERABLE PRACTICE | GOV.UK Service Standard | User needs, iteration, measurement |
+| SERV-002 | TRANSFERABLE PRACTICE | GOV.UK moving from legacy systems | Understand users/work before replacing legacy technology |
+| SERV-003 | TRANSFERABLE PRACTICE | Applying the Service Standard | Start small in complex legacy environments and iterate |
+| ACC-002 | ACCESSIBILITY STANDARD | WCAG 2.2 use of colour | Do not use colour as the only means of conveying information |
 | EX-001 | PRACTICE EXAMPLE | West Yorkshire CA constitution | Navigable constitution/currentness |
 | EX-002 | IMPROVEMENT EXAMPLE | Bristol committee review | Governance itself can be reviewed |
 
