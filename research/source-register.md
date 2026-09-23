@@ -109,3 +109,32 @@ See sources.html for live URLs.
 - BRAND-001: https://communitylearningwest.net/wp-content/uploads/2022/11/new-WECA-Brand-Guidelines-Jan-2021.pdf
 
 BRAND-001 is used only as a visual familiarity reference. The live site remains independent and unofficial.
+
+
+## Five-pass audit additions — 23 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| AI-002 | VENDOR GUIDANCE | Microsoft Copilot grounding | Web/link grounding availability and admin/licence caveat |
+| XSEC-001 | TRANSFERABLE PRACTICE | UK Parliament select committee evidence | Evidence-led scrutiny |
+| XSEC-002 | TRANSFERABLE PRACTICE | Central government governance code | Board/secretariat governance |
+| XSEC-003 | TRANSFERABLE PRACTICE | NHS provider governance code | Board/committee effectiveness |
+| XSEC-004 | TRANSFERABLE / REGULATORY PRACTICE | OfS Condition E2 | Adequate vs effective governance |
+| XSEC-005 | TRANSFERABLE PRACTICE | Courts/Tribunals case management | Exact directions/deadlines |
+| XSEC-006 | PROFESSIONAL PRACTICE | CGI governance practice | Board packs, minutes, records |
+| XSEC-007 | FORMAL GOVERNMENT STANDARD | GovS 002 Project Delivery | Ownership, planning, control, continuous improvement |
+| XSEC-008 | GOVERNMENT RISK GUIDANCE | Orange Book | Continual improvement and maturity |
+| XSEC-009 | TRANSFERABLE HIGH-RELIABILITY PRACTICE | CAA Just Culture | Learn from errors / reporting culture |
+| XSEC-010 | STATUTORY-CODE IMPLEMENTATION SUPPORT | National Archives records code | Records lifecycle and public access |
+
+- AI-002: https://support.microsoft.com/en-us/microsoft-365-copilot/what-information-does-copilot-use-to-answer-my-prompt
+- XSEC-001: https://www.parliament.uk/get-involved/committees/give-evidence-to-a-select-committee/
+- XSEC-002: https://www.gov.uk/government/publications/corporate-governance-code-for-central-government-departments-2017
+- XSEC-003: https://www.england.nhs.uk/long-read/code-of-governance-for-nhs-provider-trusts/
+- XSEC-004: https://www.officeforstudents.org.uk/publications/regulatory-framework-for-higher-education-in-england/part-v-guidance-on-the-general-ongoing-conditions-of-registration/condition-e2-management-and-governance/
+- XSEC-005: https://www.judiciary.uk/guidance-and-resources/directions-employment-tribunals-england-wales/
+- XSEC-006: https://www.cgi.org.uk/qualifications-training/competency-framework/practice/
+- XSEC-007: https://www.gov.uk/government/publications/project-delivery-functional-standard
+- XSEC-008: https://www.gov.uk/government/publications/orange-book
+- XSEC-009: https://www.caa.co.uk/general-aviation/general-aviation-at-the-caa/safety-reporting-and-just-culture/
+- XSEC-010: https://www.nationalarchives.gov.uk/information-management/manage-information/planning/records-management-code/
