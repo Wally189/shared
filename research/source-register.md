@@ -138,3 +138,24 @@ BRAND-001 is used only as a visual familiarity reference. The live site remains 
 - XSEC-008: https://www.gov.uk/government/publications/orange-book
 - XSEC-009: https://www.caa.co.uk/general-aviation/general-aviation-at-the-caa/safety-reporting-and-just-culture/
 - XSEC-010: https://www.nationalarchives.gov.uk/information-management/manage-information/planning/records-management-code/
+
+
+## WECA local-discovery additions — 23 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| WECA-001 | OFFICIAL LOCAL GOVERNANCE | WECA democracy/funding/transparency | Local public meetings/decisions/forward-work entry point |
+| WECA-002 | OFFICIAL LOCAL GOVERNANCE | WECA Constitution page / ModernGov | Current local constitutional baseline |
+| WECA-003 | OFFICIAL LOCAL DECISION RECORD | ModernGov delegated/officer decisions | Current officer decision publication trail |
+| WECA-004 | OFFICIAL LOCAL DECISION DOCUMENT | 2026 Officer Decision Notice example | Establishes ODN terminology and fields |
+| WECA-005 | HISTORIC PUBLIC CONTROL EVIDENCE | 2022/23 draft accounts | Historic statement that internal guidance covered formal/urgent decision stages |
+| WECA-006 | OFFICIAL LOCAL ASSURANCE FRAMEWORK | Local Growth Assurance Framework Jan 2025 | Governance/scrutiny/funding assurance context |
+
+- WECA-001: https://www.westofengland-ca.gov.uk/about-us/democracy-funding-transparency/
+- WECA-002: https://www.westofengland-ca.gov.uk/about-us/democracy-funding-transparency/constitution/
+- WECA-003: https://westofengland-ca.moderngov.co.uk/mgDelegatedDecisions.aspx
+- WECA-004: https://westofengland-ca.moderngov.co.uk/documents/s11342/Bristol%20Temple%20Quarter%20Joint%20Delivery%20Team%20grant%20allocation%20reprofile.pdf
+- WECA-005: https://www.westofengland-ca.gov.uk/wp-content/uploads/2023/06/Draft-Statement-of-Accounts-for-the-Year-Ending-31st-March-2023-1.pdf
+- WECA-006: https://www.westofengland-ca.gov.uk/wp-content/uploads/2025/01/WoE-Local-Growth-Assurance-Framework-January-25-1.pdf
+
+Public search on 23 September 2026 did not establish a WECA-specific authoritative meaning for "ODP tracker". Treat that term as LOCAL-UNVERIFIED until a current authoritative local source or permitted internal document establishes it.
