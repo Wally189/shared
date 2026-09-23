@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Legacy to modern — Modern Democratic Services</title>
+<meta name="description" content="Modernise a functioning legacy service without breaking it or alienating its users">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap">
+<p class="site-name"><a href="index.html">Modern Democratic Services</a></p>
+<p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p>
+<nav aria-label="Primary"><a href="index.html">Start</a>
+<a href="model.html">Operating model</a>
+<a href="law.html">Law & governance</a>
+<a href="committees.html">Committees & boards</a>
+<a href="microsoft.html">Microsoft 365</a>
+<a href="ai.html">AI workbench</a>
+<a href="toolkit.html">Toolkit</a>
+<a href="roadmap.html">Roadmap</a>
+<a href="lab.html">Lab</a>
+<a href="sources.html">Sources</a></nav>
+</div></header>
+<main id="main" class="wrap">
+<p class="kicker">Modernise without detonating the thing that already works</p>
+<h1>From functioning legacy to modern practice</h1>
+
+<p class="lede">A messy system that reliably gets the meeting out of the door is not a failed system. It is usually an evolved system containing explicit rules, tacit knowledge, workarounds and visual cues. The first modernisation task is to understand which is which.</p>
+
+<h2>The transition sequence</h2>
+<pre>OBSERVE
+→ STABILISE
+→ STANDARDISE
+→ CONSTRAIN
+→ SIMPLIFY
+→ MIGRATE
+→ AUTOMATE
+→ RETIRE THE OLD ROUTE</pre>
+
+<h3>Observe</h3><p>Inventory what people actually use, not what the procedure says they use. Note duplicate spreadsheets, local file stores, formulas, hidden tabs, macros, colour conventions, recurring emails, copy-and-paste steps and people who act as human integration points.</p>
+<h3>Stabilise</h3><p>Identify the canonical record and stop uncontrolled multiplication. Fix obvious breakage, missing ownership and ambiguous dates before introducing a new platform.</p>
+<h3>Standardise</h3><p>Agree boring names and a small vocabulary for status, body, owner, record type and lifecycle stage. Do not begin with a 70-field metadata model.</p>
+<h3>Constrain</h3><p>Use data validation, drop-downs, Choice/Lookup columns and required fields so correct entry is easier than incorrect entry. Free text remains where narrative is actually required.</p>
+<h3>Simplify</h3><p>Remove duplicated decoration and instructions once their underlying meaning has become explicit. A colour should enhance a status value, not secretly be the status value.</p>
+<h3>Migrate</h3><p>Move only processes whose information model and ownership are understood. Preserve provenance and test retrieval. Do not create permanent parallel truth.</p>
+<h3>Automate</h3><p>Automate stable deterministic work after the human process is clear. Automation should expose failures rather than quietly producing wrong output faster.</p>
+<h3>Retire</h3><p>A successful pilot is not complete while the old and new tracker are both maintained indefinitely. Set an evidence-based retirement trigger and archive the old route according to records policy.</p>
+
+<h2>Adoption without theatre</h2>
+<p>Government service guidance says complex legacy environments cannot be solved in one go and should start with something small enough to learn from. Microsoft likewise treats adoption as a people-and-training problem, not merely deployment: engage users, train in context, use early adopters/champions and learn from feedback.</p>
+<ul>
+<li><strong>Lead with the pain removed.</strong> “You no longer need to type this status three times” is usually more persuasive than “we are transforming the process”.</li>
+<li><strong>Preserve familiar vocabulary.</strong> Change the mechanism before unnecessarily changing all the words people already understand.</li>
+<li><strong>Make the preferred behaviour the easiest behaviour.</strong> A drop-down beats a training memo telling everyone to type exactly the same phrase.</li>
+<li><strong>Use moment-of-need learning.</strong> Short guidance beside the task beats a large generic training session for many users.</li>
+<li><strong>Find helpers, not evangelists.</strong> A respected colleague who can show one useful shortcut often changes behaviour more effectively than a formal launch.</li>
+<li><strong>Invite scepticism into testing.</strong> People who know how the old process fails are useful adversarial testers. Ask them what the new method would have to prove before they trusted it.</li>
+<li><strong>Credit existing expertise.</strong> The person maintaining an ugly workbook may hold the only complete mental model of why it works.</li>
+<li><strong>Keep trials reversible.</strong> Adoption is easier when a small change can be backed out without jeopardising a committee cycle.</li>
+</ul>
+
+<h2>Mixed digital confidence</h2>
+<p>Do not equate confidence with competence. Design the process so occasional users can succeed without remembering hidden conventions. Use explicit labels, sensible defaults, input guidance and short task-based instructions. Microsoft recommends training in the context of day-to-day tasks and accommodating different learning styles.</p>
+
+<h2>Colour and visual culture</h2>
+<p>Neutralising a visually noisy system does not mean replacing every bright cell with grey overnight. First identify whether colours carry hidden meaning. Convert that meaning into data or text, then simplify visual presentation. WCAG 2.2 requires that colour is not the only means of conveying information; the same principle improves internal spreadsheets even where WCAG does not directly govern the workbook.</p>
+<table><thead><tr><th>Legacy cue</th><th>Better underlying control</th><th>Optional visual cue</th></tr></thead><tbody>
+<tr><td>Red text means overdue</td><td>Status = Overdue; Due date = date</td><td>Conditional red highlight</td></tr>
+<tr><td>Neon yellow means needs attention</td><td>Action required = Yes; owner and due date</td><td>Muted warning highlight</td></tr>
+<tr><td>Different colours identify teams</td><td>Owner/team controlled field</td><td>Consistent secondary tag</td></tr>
+<tr><td>Pink/purple/other decorative zones</td><td>Explicit section headings or record types</td><td>Neutral functional styling</td></tr>
+</tbody></table>
+
+<h2>When not to modernise</h2>
+<p>Keep the existing method when the proposed replacement adds training, maintenance or governance cost without materially improving reliability, retrieval, accessibility, continuity or effort. “Newer” is not an outcome.</p>
+
+<div class="note"><p><strong>The quiet strategy:</strong> remove friction, make information clearer, demonstrate reliability, let colleagues experience the improvement, and widen only when the improved method has earned trust.</p></div>
+</main>
+<footer class="site-footer"><div class="wrap"><p><strong>Independent and unofficial.</strong> This is a reference model, not employer procedure, legal advice or official governance guidance.</p><p>Research position: 23 September 2026. <a href="about.html">About and publication safety</a>.</p></div></footer>
+</body></html>
