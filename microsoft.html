@@ -45,7 +45,22 @@
 <h3>Pages</h3><p>Home · How Democratic Services works · Upcoming cycle · New starter · Key procedures · Help / professional interfaces.</p>
 <h3>Document libraries</h3><ul><li>Governance & Constitution</li><li>Procedures & Templates</li><li>Research & Authoritative Sources</li><li>Training & Handover</li><li>AI Engines & Prompt Library — only where organisational policy permits.</li></ul><p>Do not duplicate meeting papers merely to make SharePoint look complete if a committee-management system already owns those records.</p>
 <h3>Microsoft Lists</h3><ul><li>Bodies & Powers</li><li>Meetings & Forward Work</li><li>Papers & Clearances</li><li>Decisions</li><li>Actions</li><li>Membership & Appointments</li><li>Governance Sources & Changes</li><li>Improvement Experiments</li></ul>
-<h3>Excel</h3><p>Use for calculations, analysis, models and exploration. Do not make a multi-user spreadsheet canonical simply because everybody knows how to colour cells.</p>
+<h3>Excel</h3><p>Use for calculations, analysis, models and exploration. A spreadsheet does not become bad merely because it is old or visually eccentric. First establish whether it is a register, workflow tracker, calculation model, reporting view, temporary analysis or duplicate/shadow record. Then decide whether to KEEP, CLEAN, CONSTRAIN, MIGRATE or RETIRE it.</p>
+<p>Where Excel remains appropriate, improve data quality before replacing the tool. Microsoft supports <a href="https://support.microsoft.com/en-gb/excel/get-started/apply-data-validation-to-cells?nochrome=true">data validation</a> and drop-down lists to restrict entries and provide input/error guidance. Status, owner category, committee name and similar controlled concepts should not be unrestricted free text unless there is a genuine reason.</p>
+<p><a href="templates/spreadsheet-triage.md">Use the Spreadsheet Triage template</a>.</p>
+
+<h2>Colour is presentation, not data</h2>
+<p>Do not encode essential meaning only through highlight colour, font colour or decorative schemes. WCAG 2.2 explicitly requires that colour is not the only visual means of conveying information. Replace “red text means late” with an explicit <strong>Status = Overdue</strong> value and, if useful, let conditional formatting show red as a secondary cue. Use a small neutral visual system with colours assigned to stable functions rather than people, preferences or history.</p>
+<p>Bright or familiar formatting need not be stripped out on day one. First make the underlying meaning explicit; then simplify the presentation once staff no longer depend on the colour as memory.</p>
+
+<h2>Structured fields before new platforms</h2>
+<p>Microsoft Lists Choice columns are designed to keep stored values consistent, and Lookup columns can constrain values to an existing source list. A useful migration often begins by defining controlled vocabularies in the old workbook, proving them with users, and only then moving the same information model into a List.</p>
+
+<h2>File naming</h2>
+<p>Use boring, recognisable names. For working files, a starting pattern is:</p>
+<pre>YYYY-MM-DD - Body or workstream - Subject - Record type</pre>
+<p>Add a short status/version suffix only where the storage system does not already provide reliable version history. Avoid “FINAL v2 FINAL USE THIS ONE”. In SharePoint, prefer metadata and version history over encoding every attribute into filenames.</p>
+
 <h2>Metadata</h2><p>Body ID · record type · meeting date · decision date · subject · owner role · status · authority/power · publication class · retention class · effective from · review date · source status · predecessor · successor · version status.</p>
 </main>
 <footer class="site-footer"><div class="wrap">
