@@ -23,5 +23,22 @@ Research position: 23 September 2026. Re-check currentness before operational us
 | SERV-001 | TRANSFERABLE PRACTICE | GOV.UK Service Standard | User needs, iteration, measurement |
 | EX-001 | PRACTICE EXAMPLE | West Yorkshire CA constitution | Navigable constitution/currentness |
 | EX-002 | IMPROVEMENT EXAMPLE | Bristol committee review | Governance itself can be reviewed |
+| CHG-001 | GOVERNMENT SERVICE PRACTICE | Apply the Service Standard | Start small in complex/legacy environments and iterate |
+| CHG-002 | GOVERNMENT LEGACY GUIDANCE | Moving away from legacy systems | Understand existing landscape/user needs; involve affected stakeholders |
+| M365-002 | VENDOR PRODUCT GUIDANCE | Excel data validation | Restrict inappropriate/inconsistent structured input |
+| M365-003 | VENDOR PRODUCT GUIDANCE | Lists Choice/Lookup/validation | Keep constrained shared data consistent |
+| ADOPT-001 | VENDOR ADOPTION GUIDANCE | Microsoft Champion Programme | Peer support/champions for Office 365 adoption |
+| ADOPT-002 | PUBLIC-SECTOR IMPROVEMENT PRACTICE | NHS England change model | Shared purpose, involvement, measurement, small tests, spread |
+| ACC-002 | ACCESSIBILITY STANDARD | WCAG 2.2 Use of Color | Colour is not the sole carrier of meaning |
 
 See sources.html for live URLs.
+
+## Quiet-modernisation URLs
+
+- CHG-001: https://www.gov.uk/service-manual/service-assessments/how-to-apply-the-service-standard
+- CHG-002: https://www.gov.uk/service-manual/technology/moving-away-from-legacy-systems
+- M365-002: https://support.microsoft.com/en-gb/excel/get-started/apply-data-validation-to-cells?nochrome=true
+- M365-003: https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/list-and-library-column-types-and-options
+- ADOPT-001: https://learn.microsoft.com/en-us/office365/customlearning/champ_getstarted
+- ADOPT-002: https://www.england.nhs.uk/long-read/how-to-improve-care-related-processes-in-general-practice/
+- ACC-002: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color
