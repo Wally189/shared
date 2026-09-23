@@ -44,3 +44,18 @@ See sources.html for live URLs.
 - ADOPT-002: https://www.england.nhs.uk/long-read/how-to-improve-care-related-processes-in-general-practice/
 - ADOPT-003: https://adoption.microsoft.com/en-us/streamline-user-training/
 - ACC-002: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color
+
+
+## Validation follow-up additions — 23 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| CHG-003 | GOVERNMENT ADOPTION PRACTICE | GDS digital take-up guidance | Understand non-adoption; provide assisted support |
+| DATA-002 | GOVERNMENT DATA-QUALITY GUIDANCE | GDS Data Quality Action Plan | Critical data, quality rules, baselines, root cause and prioritised improvement |
+| M365-004 | VENDOR PRODUCT GUIDANCE | SharePoint/Lists versioning | Keep stable document identity; inspect/restore revisions |
+| LAW-008 | LAW / CURRENTNESS | S.I. 2026/719 | Further amendment to the 2017 combined-authority Order |
+
+- CHG-003: https://www.gov.uk/service-manual/helping-people-to-use-your-service/encouraging-people-to-use-your-digital-service
+- DATA-002: https://www.gov.uk/government/publications/implement-a-data-quality-action-plan/data-quality-action-plan-implementation-guide
+- M365-004: https://support.microsoft.com/en-us/sharepoint/lists/documents-and-library/enable-and-configure-versioning-for-a-list-or-library
+- LAW-008: https://www.legislation.gov.uk/uksi/2026/719/part/2/made
