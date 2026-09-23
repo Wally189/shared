@@ -53,3 +53,6 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid var(--line);bor
 .skip-link:focus{left:1rem;top:1rem;background:#fff;padding:.7rem;z-index:10}
 @media(max-width:38rem){body{font-size:1rem}main{padding-top:2rem}table{display:block;overflow-x:auto}nav{gap:.45rem .75rem}}
 @media print{nav,.skip-link{display:none}body{background:#fff;color:#000}.site-header,.site-footer{background:#fff}a{color:#000}}
+
+.ai-security{border:1px solid var(--line);border-left:4px solid var(--muted-pink);padding:.75rem 1rem;margin:1.25rem 0;background:var(--surface);font-size:.92rem}
+.ai-security p{margin:.1rem 0}
