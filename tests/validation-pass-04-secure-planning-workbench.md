@@ -2,7 +2,9 @@
 
 Date: 23 September 2026
 
-Baseline main: `bd23b2f80c86f6c0db1263af979a43c20193600b`
+Initial branch baseline: `bd23b2f80c86f6c0db1263af979a43c20193600b`
+
+Latest main control reconciled before review: `9599f0974cc52b417a67290f44f7fd15a30a79bf` (fail-closed release SHA verification)
 
 Candidate branch: `candidate/secure-planning-workbench`
 
@@ -100,6 +102,7 @@ Workplace Copilot runtime remains **RUNTIME UNTESTED** until executed in an appr
 - Source-level checks do not prove how a particular Microsoft Copilot tenant will retrieve or interpret the public site.
 - Candidate visual layout has not been claimed as real-browser acceptance evidence in this record.
 - GitHub Pages deployment is not claimed because the candidate is not merged to `main`.
+- The candidate branch began one commit before the latest release-gate repair; its `.github/workflows/pages.yml` was subsequently reconciled byte-for-byte to current main before PR review.
 - After any merge, CAT-123 release verification still requires the official Pages deployment plus live readback of the deployed SHA and material changed pages.
 
 ## Candidate conclusion
