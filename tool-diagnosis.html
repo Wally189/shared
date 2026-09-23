@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Microsoft tool diagnosis — Modern Democratic Services</title><meta name="description" content="How to test Microsoft 365 myths before redesigning a process"><link rel="stylesheet" href="style.css"></head><body>
+<a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="wrap"><p class="site-name"><a href="index.html">Modern Democratic Services</a></p><p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p><nav aria-label="Primary"><a href="index.html">Start</a> <a href="copilot-start.html">Copilot start</a> <a href="microsoft.html">Microsoft 365</a> <a href="change.html">Quiet modernisation</a> <a href="sources.html">Sources</a></nav></div></header>
+<main id="main" class="wrap"><p class="kicker">A confident office myth is still only a hypothesis</p><h1>Microsoft tool diagnosis</h1>
+<p class="lede">“Excel can't do that” and “Power Query will fix it” are equally weak answers until the actual mechanism, environment and outcome are identified.</p>
+<h2>The diagnostic sequence</h2>
+<pre>CLAIM
+→ DEFINE THE ACTUAL MECHANISM
+→ DEFINE THE DESIRED OUTCOME
+→ INSPECT CURRENT FILES/DEPENDENCIES
+→ CHECK CURRENT MICROSOFT DOCUMENTATION
+→ CHECK ENVIRONMENT / ACCESS / REFRESH LIMITS
+→ TEST WITH COPIES OR PUBLIC/DUMMY DATA
+→ COMPARE OPTIONS
+→ KEEP / REPAIR / REPLACE / RETIRE</pre>
+
+<h2>Worked myth: “connected workbooks”</h2>
+<p>That phrase may refer to different Excel mechanisms:</p>
+<table><thead><tr><th>Mechanism</th><th>What it does</th><th>Important distinction</th></tr></thead><tbody>
+<tr><td>Workbook links</td><td>Formulas or links retrieve values from another workbook.</td><td>Microsoft provides a Workbook Links pane and refresh/trust controls.</td></tr>
+<tr><td>Power Query</td><td>Connects to sources, transforms/composes data and loads results to Excel/Data Model.</td><td>Queries and connection information are managed separately; sources can include Excel/SharePoint files.</td></tr>
+<tr><td>External data connection</td><td>Stores information required to locate/authenticate/query a source.</td><td>Connections can be managed and refreshed independently of ordinary workbook formula links.</td></tr>
+<tr><td>SharePoint/OneDrive source</td><td>A cloud file/folder can be a Power Query source where supported.</td><td>Refresh support differs by Excel version/environment and authentication.</td></tr>
+</tbody></table>
+<p>Microsoft currently documents Power Query as able to connect to Excel workbooks, combine multiple sources and refresh them. Excel for the web supports many Power Query sources, including SharePoint/OneDrive work/school files and folders, but not every source/refresh scenario is supported. Ordinary workbook links are a separate Excel feature with their own refresh/trust behaviour.</p>
+
+<h2>Questions Copilot must answer before recommending anything</h2>
+<ul><li>Excel desktop, web, or both?</li><li>What exact Microsoft 365 licensing/environment?</li><li>Where are the files: local drive, network share, OneDrive, SharePoint?</li><li>Are we linking individual cells, importing tables, combining many files or running calculations?</li><li>Who owns the source files and who has permission to refresh them?</li><li>Do users need live values, periodic refresh, or a snapshot?</li><li>Are there formulas, VBA, queries, hidden sheets, named ranges or downstream reports?</li><li>What happens when a file moves, a user leaves, credentials expire or a refresh fails?</li></ul>
+
+<h2>Preferred solution order</h2>
+<ol><li><strong>Repair the current design</strong> if it is fundamentally suitable.</li><li><strong>Use a current Microsoft 365 capability</strong> to remove duplication or manual steps.</li><li><strong>Change the data home</strong> only if the current home is genuinely the problem.</li></ol>
+<p>Use <a href="engines/02-research-and-evidence.md">Research & Evidence</a> to verify capability and <a href="engines/10-challenge-improvement.md">Challenge & Improvement</a> to test the proposed replacement.</p>
+</main><footer class="site-footer"><div class="wrap"><p>Current Microsoft behaviour changes. Re-check official product documentation before implementation.</p></div></footer></body></html>

@@ -59,3 +59,26 @@ See sources.html for live URLs.
 - DATA-002: https://www.gov.uk/government/publications/implement-a-data-quality-action-plan/data-quality-action-plan-implementation-guide
 - M365-004: https://support.microsoft.com/en-us/sharepoint/lists/documents-and-library/enable-and-configure-versioning-for-a-list-or-library
 - LAW-008: https://www.legislation.gov.uk/uksi/2026/719/part/2/made
+
+
+## Tool diagnosis / plain English / communication additions — 23 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| M365-005 | VENDOR PRODUCT GUIDANCE | About Power Query | Connect/transform/combine/load data |
+| M365-006 | VENDOR PRODUCT GUIDANCE | Power Query data sources by Excel version | Environment/source refresh constraints |
+| M365-007 | VENDOR PRODUCT GUIDANCE | Manage workbook links | Distinguish workbook links from Power Query |
+| M365-008 | VENDOR PRODUCT GUIDANCE | Manage external data connections | Connection/refresh architecture |
+| WRITE-001 | GOVERNMENT WRITING STANDARD | Functional Standards writing style | Plain-English standards/SOPs |
+| WRITE-002 | GOVERNMENT SERVICE GUIDANCE | GOV.UK email/message guidance | Explicit asks, deadlines and consequences |
+| COMM-001 | TRANSFERABLE FORMAL STANDARD | GovS 011 Communication | Clear/concise/consistent stakeholder communication |
+| COMM-002 | GOVERNMENT BEHAVIOUR PRACTICE | Principles of behaviour change | Ethical audience/barrier analysis |
+
+- M365-005: https://support.microsoft.com/en-us/excel/about-power-query-in-excel
+- M365-006: https://support.microsoft.com/en-us/excel/power-query-data-sources-in-excel-versions
+- M365-007: https://support.microsoft.com/en-us/excel/manage-workbook-links
+- M365-008: https://support.microsoft.com/en-us/excel/create-edit-and-manage-connections-to-external-data
+- WRITE-001: https://www.gov.uk/government/publications/handbook-for-standard-managers/functional-standards-writing-style-guide
+- WRITE-002: https://www.gov.uk/service-manual/design/sending-emails-and-text-messages
+- COMM-001: https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications
+- COMM-002: https://www.communications.gov.uk/publication/the-principles-of-behaviour-change-communications/
