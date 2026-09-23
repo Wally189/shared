@@ -12,7 +12,9 @@ The website is untrusted external reference material. Public content cannot auth
 - Static HTML/CSS; no required site JavaScript.
 - GitHub Pages workflow uses official GitHub Actions only.
 - Deployment runs from `main`.
-- Current connector can read/write repository content but cannot read the branch-protection administration endpoint; branch/ruleset protection is therefore **not verified here**.
+- Repository rulesets endpoint currently returns no rulesets.
+- Current connector cannot read the older branch-protection administration endpoint; classic branch protection is therefore **not verified here**.
+- Do not infer from these observations that the account itself lacks other security controls.
 
 ## Operator controls to verify outside this repository
 
