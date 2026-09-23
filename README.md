@@ -10,6 +10,12 @@ This repository exists solely for this project.
 
 The static site is deliberately plain and has no required JavaScript or third-party runtime dependencies.
 
+## Engine support layer
+
+The ten bounded AI engines share one small support layer: a common Case Bus, a Microsoft 365 Capability Registry, a lightweight Verification Gate and human tool adapters. The layer is a protocol, not a backend. It adds no API, database, queue or Power Automate dependency.
+
+For broad modernisation, the operating instruction first establishes the current operator's private working baseline and progress state, then improves one bounded problem at a time. Successful personal methods should become neutral, repeatable methods that another competent colleague can use.
+
 ## Status
 
 Research position: 23 September 2026.

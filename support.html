@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engine support layer — Modern Democratic Services</title>
+<meta name="description" content="Common handoff, capability, verification and tool-adapter rules for the ten AI engines">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap">
+<p class="site-name"><a href="index.html">Modern Democratic Services</a></p>
+<p class="site-subtitle">A public reference architecture for reliable democratic decision-making.</p>
+<nav aria-label="Primary"><a href="index.html">Start</a>
+<a href="model.html">Operating model</a>
+<a href="microsoft.html">Microsoft 365</a>
+<a href="ai.html">AI workbench</a>
+<a href="support.html">Engine support</a>
+<a href="toolkit.html">Toolkit</a>
+<a href="roadmap.html">Roadmap</a>
+<a href="sources.html">Sources</a></nav>
+</div></header>
+
+<main id="main" class="wrap">
+<p class="kicker">One small control plane around ten bounded specialists</p>
+<h1>Engine support layer</h1>
+<p class="lede">The ten engines do not need a new platform. They need a common handoff format, a truthful view of the available Microsoft environment, one lightweight verification gate and simple instructions for moving between AI advice and ordinary workplace tools.</p>
+
+<pre>OPERATOR
+→ PROGRESS STATE
+→ ROUTER
+→ CASE BUS
+→ ENGINE(S)
+→ VERIFICATION GATE
+→ HUMAN ACTION IN APPROVED TOOL
+→ EVIDENCE / RESULT
+→ PROGRESS STATE
+→ NEXT STEP OR STOP</pre>
+
+<h2>0 — Set up the operator before redesigning the service</h2>
+<p>For broad modernisation, the first job is to make the current operator reliable, repeatable and increasingly independent—not to announce a transformation programme. Establish a private working profile in the approved OneNote log or equivalent. Do not publish it on this website.</p>
+<p>Record only what is useful for work: role and scope; recurring duties; important cycles and deadlines; key professional interfaces; authoritative systems; known tool constraints; preferred working/output style; current pain points; skills being learned; and the evidence needed to show reliable delivery and useful improvement.</p>
+<div class="note"><p><strong>Professional-evidence rule:</strong> quietly capture outcomes such as deadlines protected, errors prevented, risks identified early, handovers improved, duplicated effort removed and methods made easier for others to use. Prefer useful work and reproducible evidence to conspicuous self-promotion. When a personal method proves useful, turn it into a neutral repeatable method that another competent colleague could use.</p></div>
+<p>The profile is a working aid, not a personnel record. Do not copy sensitive personal information, informal judgements about colleagues or confidential employer material into an AI prompt merely to personalise the coach.</p>
+
+<h2>1 — Common Case Bus</h2>
+<p>Every engine receives and returns the same small working packet. This is the handoff contract; it is not a new database and it never outranks the original source.</p>
+<pre>CASE ID
+GOAL
+CURRENT STATE
+SOURCES
+VERIFIED FACTS
+LOCAL PRACTICE / UNVERIFIED CLAIMS
+AUTHORITY / LIMITS
+CAPABILITY STATE
+UNKNOWNS / RISKS
+ENGINE USED + FINDINGS
+DECISION / DO NOT CHANGE
+NEXT HANDOFF
+VERIFY / STOP
+PROGRESS EVIDENCE</pre>
+<p>Keep source IDs stable across handoffs. Preserve contradictions and unknowns. An engine may add findings, but must not silently turn an inference into a verified fact or a working packet into an authoritative record.</p>
+<p><a href="templates/case-bus.md">Copy the Case Bus template</a>.</p>
+
+<h2>2 — Microsoft 365 Capability Registry</h2>
+<p>A product name is not a capability. Licensing, tenant configuration, client version, permissions, file location, authentication and organisational policy can all change what is actually usable. Therefore every material tool assumption starts as <strong>UNKNOWN</strong> until checked in the real environment.</p>
+<table>
+<thead><tr><th>State</th><th>Meaning</th></tr></thead>
+<tbody>
+<tr><td>AVAILABLE</td><td>Observed or authoritatively confirmed for the required use in this environment.</td></tr>
+<tr><td>LIMITED</td><td>Available, but a material client, permission, refresh, policy, data or workflow constraint applies.</td></tr>
+<tr><td>NOT AVAILABLE</td><td>Confirmed unavailable or not permitted for the required use.</td></tr>
+<tr><td>UNKNOWN</td><td>Not yet checked. Do not design a dependency around it.</td></tr>
+</tbody>
+</table>
+<p>Each capability entry records: capability; state; client/environment; permissions; dependencies; approved data/location constraints; authoritative source or observed test; last verified date; and the smallest next test if unresolved.</p>
+<p>The starter registry includes Excel desktop/web, workbook links, Power Query, OneDrive, SharePoint, Lists, OneNote, classic/new Outlook, shared mailboxes, Teams, Power Automate and Copilot. It deliberately makes no assumption that any of them are present merely because an organisation says it uses Microsoft 365.</p>
+<p><a href="templates/capability-registry.md">Copy the Capability Registry</a>.</p>
+
+<h2>3 — Verification Gate</h2>
+<p>Use the gate whenever more than one engine contributes to a material output, or whenever an engine output is about to cause a real process, record, deadline, communication or tool change.</p>
+<ol>
+<li><strong>Source:</strong> are material claims traceable to the underlying evidence?</li>
+<li><strong>Authority:</strong> have national rule, local rule, local practice and professional judgement been kept distinct?</li>
+<li><strong>Capability:</strong> is every required tool capability AVAILABLE or explicitly LIMITED with an accepted workaround?</li>
+<li><strong>Privacy / records:</strong> is the proposed information handling permitted and proportionate?</li>
+<li><strong>Commitments:</strong> are owners, deadlines, escalation routes and assurances evidenced rather than invented?</li>
+<li><strong>Change safety:</strong> is the smallest step reversible, and is the control performed by the existing workaround understood?</li>
+<li><strong>Consistency:</strong> do engine outputs contradict one another or the Case Bus?</li>
+<li><strong>Professional boundary:</strong> does Legal, Monitoring Officer, Finance/S151, DPO/IG, IT/security or another competent role need to answer?</li>
+<li><strong>Evidence:</strong> what result will prove the step worked?</li>
+</ol>
+<p>Return only <strong>PASS</strong>, <strong>PASS WITH LIMITS</strong> or <strong>STOP / REFER</strong>, followed by the material limitations or referral. This is a release gate, not a score.</p>
+<p><a href="templates/verification-gate.md">Copy the Verification Gate</a>.</p>
+
+<h2>4 — Human tool adapters</h2>
+<p>An adapter is simply the instruction that translates an engine recommendation into a safe human action in the tool actually available. No API, backend or automation platform is required.</p>
+
+<h3>Excel / Power Query</h3>
+<p><strong>Before:</strong> identify the authoritative workbook, make a safe copy where appropriate, record links/queries/macros/named ranges and check the capability registry. <strong>Do:</strong> test one bounded change with dummy or permitted data. <strong>Return:</strong> what changed, refresh/result, error text and rollback position. <strong>Stop:</strong> if ownership, refresh credentials, downstream dependency or data sensitivity is unclear.</p>
+
+<h3>Outlook / shared mailboxes</h3>
+<p><strong>Before:</strong> confirm mailbox type, owner, permissions, retention/archive position and business purpose. <strong>Do:</strong> inventory first; make one reversible rule/folder/process test only after constraints are understood. <strong>Return:</strong> observed behaviour and effect on missed actions/retrieval effort. <strong>Stop:</strong> before bulk deletion, retention change, uncontrolled copying or AI processing of sensitive historic mail.</p>
+
+<h3>OneNote</h3>
+<p><strong>Use:</strong> as the operator's working continuity layer where organisational policy permits. Keep the latest Progress Block in <code>00 Current State</code>; store capability observations and experiment notes in their relevant sections. <strong>Do not:</strong> turn OneNote into the authoritative home for formal decisions, records or confidential material that belongs elsewhere.</p>
+
+<h3>OneDrive / SharePoint / Lists</h3>
+<p><strong>Before:</strong> identify the authoritative current home and permissions. <strong>Do:</strong> use OneDrive for personal work in progress; shared libraries/Lists only where approved and demonstrably better for shared state. <strong>Return:</strong> location, ownership, version/metadata behaviour and retrieval result. <strong>Stop:</strong> before duplicating canonical records merely to make a new structure look complete.</p>
+
+<h3>Copilot / AI</h3>
+<p><strong>Before:</strong> provide the current Progress Block, the relevant Case Bus and only permitted evidence. <strong>Do:</strong> route to the smallest useful engine combination. <strong>Return:</strong> source-linked findings, verification state, one next action and an updated Progress Block. <strong>Stop:</strong> when the bounded step is complete or a competent professional must answer.</p>
+
+<p><a href="templates/tool-adapters.md">Copy the Tool Adapter cards</a>.</p>
+
+<h2>5 — State between sessions</h2>
+<p>At the start of a continuing session, read the latest Progress Block first. Then load only the Case Bus and capability entries relevant to the current step. At the end, return one replacement Progress Block. Do not reconstruct the whole modernisation story from memory every time.</p>
+<pre>DATE:
+CURRENT PHASE:
+CURRENT FOCUS:
+COMPLETED:
+EVIDENCE:
+DECISION / DO NOT CHANGE:
+CAPABILITY CHANGES:
+OPEN QUESTIONS:
+RISKS / BLOCKERS:
+NEXT SINGLE STEP:</pre>
+<p>The Case Bus carries the bounded case; the Progress Block carries continuity; the organisation's real systems remain authoritative.</p>
+
+<h2>6 — What this layer deliberately is not</h2>
+<ul>
+<li>not a backend, queue, message broker or database;</li>
+<li>not a Power Automate dependency;</li>
+<li>not an API integration layer;</li>
+<li>not a new source of organisational truth;</li>
+<li>not permission to upload workplace data to a public site or unapproved AI;</li>
+<li>not an excuse to create a new engine for every task name.</li>
+</ul>
+
+<div class="note"><p><strong>Scale rule:</strong> prove the method personally → make it repeatable → document the smallest neutral SOP → let another person test it → only then consider a shared-tool or automation change.</p></div>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+<p><strong>Independent and unofficial.</strong> This is a reference model, not employer procedure, legal advice or official governance guidance. Local policy, permissions and professional authority control real implementation.</p>
+<p>Research position: 23 September 2026. <a href="about.html">About and publication safety</a>.</p>
+</div></footer>
+</body>
+</html>

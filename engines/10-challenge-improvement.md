@@ -5,3 +5,8 @@
 
 ## Output
 Defect → consequence → correction → retest.
+
+## Common handoff contract
+When this engine is used in a continuing or multi-engine case, receive and return the shared [Case Bus](../templates/case-bus.md). Preserve stable source IDs, VERIFIED FACTS, LOCAL PRACTICE / UNVERIFIED CLAIMS, AUTHORITY / LIMITS, CAPABILITY STATE, UNKNOWNS / RISKS and STOP conditions. Do not silently promote inference into fact.
+
+Check material Microsoft/tool assumptions against the [Capability Registry](../templates/capability-registry.md). If more than one engine contributes to a material output, or the output is about to change a real process, record, deadline, communication or tool, apply the [Verification Gate](../templates/verification-gate.md) before action.
