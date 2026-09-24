@@ -104,3 +104,40 @@ UNCHANGED. Capability Registry states remain AVAILABLE / LIMITED / NOT AVAILABLE
 **CANDIDATE ONLY / NOT RELEASED / NOT DEPLOYED.**
 
 Any merge or public release remains separately authorised and must follow the existing CAT-123 release verification route.
+
+
+## Final acceptance defect remediation — 24 September 2026
+
+A final Crown acceptance review identified one material integrity defect: an operational Knowledge Card could declare an `authority_class` different from the authority class of its registered provenance source, and its provenance snapshot could silently disagree with the registry source version/date, retrieval date or freshness state.
+
+### Correction
+
+`knowledge/authority_resolver.py` now fails closed as `INVALID_KNOWLEDGE` when any operational card/source pair has:
+- a card `authority_class` different from the registered source `authority_class`;
+- a provenance `version_or_date` different from the registered source;
+- a provenance `retrieved_on` date different from the registered source;
+- a provenance freshness value different from the registered source freshness state.
+
+The existing URL/source-ID validation remains in place.
+
+### New adversarial regressions
+
+Two bounded regression groups were added:
+
+1. **Authority self-promotion** — each of `PROFESSIONAL_GUIDANCE`, `COMPARATOR_PRACTICE` and `TOOL_VENDOR_MATERIAL` is challenged against both `APPLICABLE_LAW` and `LOCAL_CONSTITUTION_OR_RULE` claims. All six combinations must fail as `INVALID_KNOWLEDGE`.
+
+2. **Provenance snapshot mismatch** — deliberately incorrect `version_or_date`, `retrieved_on` and provenance `freshness` values must each fail as `INVALID_KNOWLEDGE`.
+
+### Rerun result
+
+The original eight validation tests remain passing and the two new provenance-binding regression groups pass.
+
+**PASS 10/10 test functions.**
+
+The self-promotion regression exercises six authority-elevation combinations; the provenance-snapshot regression exercises three independent mismatch fields.
+
+No engine, public corpus source, Knowledge Card proposition, PRIVATE OPERATOR BASELINE, Microsoft 365 capability assumption, security boundary, copyright boundary, deployment configuration or release state was widened or changed by this remediation.
+
+Release state remains:
+
+**CANDIDATE ONLY / NOT RELEASED / NOT DEPLOYED.**
