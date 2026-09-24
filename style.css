@@ -54,8 +54,10 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid var(--line);bor
 @media(max-width:38rem){body{font-size:1rem}main{padding-top:2rem}table{display:block;overflow-x:auto}nav{gap:.45rem .75rem}}
 @media print{nav,.skip-link{display:none}body{background:#fff;color:#000}.site-header,.site-footer{background:#fff}a{color:#000}}
 
-.ai-security{border:1px solid var(--line);border-left:4px solid var(--muted-pink);padding:.75rem 1rem;margin:1.25rem 0;background:var(--surface);font-size:.92rem}
-.ai-security p{margin:.1rem 0}
+.ai-security{border:0;border-top:1px solid var(--line);padding:.38rem 0 0;margin:.8rem 0 1.15rem;background:transparent;color:var(--muted);font-family:Arial,sans-serif;font-size:.76rem;line-height:1.42}
+.ai-security p{margin:0;max-width:72ch}
+.ai-security strong{font-weight:600;color:inherit}
+.ai-security a{color:inherit;text-decoration-color:#9aa6aa}
 
 
 /* Planning workbench — static, no-script visual system */
