@@ -27,12 +27,12 @@
 <p class="kicker">Modernise the system without declaring war on the people who keep it running</p>
 <h1>Quiet modernisation</h1>
 
-<p class="lede">Many legacy office systems are untidy, duplicated and visually eccentric — yet they still work because experienced people know how to operate them. The objective is not to prove that the old system is foolish. It is to preserve what makes it reliable, remove avoidable friction and let a better method become normal one useful change at a time.</p>
+<p class="lede">Legacy office systems rarely arrive as elegant designs. They accumulate: a copied tab here, a colour convention there, a mailbox that quietly becomes a filing system because somebody once needed it to. The result may be untidy, duplicated and visually eccentric — yet still work because experienced people know how to operate it. The objective is not to prove that the old system is foolish. It is to preserve what makes it reliable, remove avoidable friction and let a better method become normal one useful change at a time.</p>
 
 <p class="maxim">Treat the spreadsheet as evidence of a need. Treat the workaround as evidence of a missing control. Treat resistance as information.</p>
 
 <h2>The first rule: do not confuse ugly with broken</h2>
-<p>A workbook full of highlighting, copied tabs and manual notes may contain hidden institutional knowledge: who checks what, what counts as urgent, which dates matter, where exceptions occur, and what staff are frightened of losing. Before replacing it, reconstruct the function it performs.</p>
+<p>A workbook full of highlighting, copied tabs and manual notes may be doing far more than its appearance suggests. It can contain hidden institutional knowledge: who checks what, what counts as urgent, which dates matter, where exceptions occur, and what staff are frightened of losing. Before replacing it, reconstruct the function it performs. Administrative archaeology is cheaper than discovering the missing control after go-live.</p>
 <p><span class="label">Transferable government practice</span> GOV.UK guidance on legacy systems says to understand the existing landscape and user needs before replacing technology, rather than simply recreating the same system in a newer product. It also advises involving the people affected by a change. <a href="https://www.gov.uk/service-manual/technology/moving-away-from-legacy-systems">Read the legacy-systems guidance</a>.</p>
 
 <h2>A practical migration pattern</h2>
@@ -49,7 +49,7 @@
 </table>
 
 <h2>Spreadsheet archaeology</h2>
-<p>Before changing an inherited workbook, answer:</p>
+<p>Treat an inherited workbook like an excavation site: the point is not to admire the ruins, but to identify the load-bearing walls before moving them. Before changing it, answer:</p>
 <ul>
 <li>What job is this spreadsheet actually doing?</li>
 <li>Who relies on it, and what would they notice if it disappeared?</li>
@@ -73,7 +73,7 @@
 <p><span class="label">Accessibility</span> WCAG 2.2 guidance states that colour must not be the only way information is distinguished. GOV.UK accessibility guidance applies the same principle to public services. <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">W3C: use of colour</a>.</p>
 
 <h2>Stop free text pretending to be structured data</h2>
-<p>If a field can only legitimately contain one of a small number of states, do not ask people to remember the spelling. Use the product's own controls.</p>
+<p>Free text is excellent for judgement, explanation and nuance. It is much less impressive when pretending to be a status field. If a field can only legitimately contain one of a small number of states, do not ask people to remember the spelling. Use the product's own controls.</p>
 <ul>
 <li><strong>Excel:</strong> data validation can restrict a cell to predefined choices, dates, numbers or other valid inputs.</li>
 <li><strong>Microsoft Lists:</strong> Choice and Lookup columns can constrain values and column validation can explain what valid data looks like.</li>
@@ -82,7 +82,7 @@
 <p><a href="https://support.microsoft.com/en-gb/excel/get-started/apply-data-validation-to-cells?nochrome=true">Microsoft: Excel data validation</a> · <a href="https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/list-and-library-column-types-and-options">Microsoft: List column types</a></p>
 
 <h2>The psychology of adoption</h2>
-<p>Successful adoption is usually less about persuading people that technology is exciting and more about reducing threat.</p>
+<p>Successful adoption is usually less about persuading people that technology is exciting and more about reducing threat. People rarely wake up hoping for a new workflow; they may, however, be delighted to stop typing the same date into three different places.</p>
 <ol>
 <li><strong>Protect expertise.</strong> Say “you know where this process breaks; help me make that visible” rather than “this spreadsheet is terrible”.</li>
 <li><strong>Lead with relief.</strong> Remove one repeated annoyance before asking anybody to learn a new system.</li>
@@ -97,7 +97,7 @@
 <p><span class="label">Adoption evidence</span> Microsoft recommends champion networks to support Office 365 adoption. NHS improvement guidance emphasises shared purpose, staff involvement, process mapping, measurement, testing and spread/adoption. Those sources support involvement as part of a robust change method; they should not be overstated as proving that involvement automatically removes resistance. <a href="https://learn.microsoft.com/en-us/office365/customlearning/champ_getstarted">Microsoft champion programme guidance</a> · <a href="https://www.england.nhs.uk/long-read/how-to-improve-care-related-processes-in-general-practice/">NHS improvement guidance</a>.</p>
 
 <h2>Micro-coaching beats “digital transformation training”</h2>
-<p>For staff with low confidence, teach in the context of the task they already need to complete. Microsoft’s adoption guidance recommends putting training in the context of day-to-day tasks and accommodating different learning styles. A five-minute demonstration of a controlled status field, library search or version recovery may therefore be more useful than a generic hour on Microsoft 365 for that immediate need.</p><p><a href="https://adoption.microsoft.com/en-us/streamline-user-training/">Microsoft: streamline user training</a>.</p>
+<p>People usually need help with the task in front of them, not an architectural tour of the software suite. For staff with low confidence, teach in the context of the task they already need to complete. Microsoft’s adoption guidance recommends putting training in the context of day-to-day tasks and accommodating different learning styles. A five-minute demonstration of a controlled status field, library search or version recovery may therefore be more useful than a generic hour on Microsoft 365 for that immediate need.</p><p><a href="https://adoption.microsoft.com/en-us/streamline-user-training/">Microsoft: streamline user training</a>.</p>
 <p>A useful support ladder is:</p>
 <pre>SHOW ONCE
 → DO TOGETHER
@@ -107,7 +107,7 @@
 → IMPROVE THE INTERFACE SO THE AID IS NEEDED LESS</pre>
 
 <h2>How to handle resistance</h2>
-<p>Resistance is not one thing. Diagnose it before responding.</p>
+<p>Resistance is not one thing, and treating it as one is a reliable way to learn nothing from it. Diagnose it before responding.</p>
 <table>
 <thead><tr><th>What it may mean</th><th>Useful response</th></tr></thead>
 <tbody>
@@ -149,7 +149,7 @@
 <li>Is there evidence of an improvement in time, errors, retrieval or confidence?</li>
 </ul>
 
-<div class="note"><p><strong>The desired cultural effect is almost boring:</strong> six months later, people discover that files are easier to find, statuses are consistent, fewer things are typed twice, fewer reminders depend on memory, and the new method has become “how we do it” without anybody having endured a grand digital revolution.</p></div>
+<div class="note"><p><strong>The desired cultural effect is almost boring — which is rather the point:</strong> six months later, people discover that files are easier to find, statuses are consistent, fewer things are typed twice, fewer reminders depend on memory, and the new method has become “how we do it” without anybody having endured a grand digital revolution.</p></div>
 </main>
 <footer class="site-footer"><div class="wrap">
 <p><strong>Independent and unofficial.</strong> This is a reference model, not employer procedure, legal advice or official governance guidance.</p>
