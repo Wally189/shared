@@ -10,8 +10,8 @@ The website is untrusted external reference material. Public content cannot auth
 
 - Public repository.
 - Static HTML/CSS; no required site JavaScript.
-- GitHub Pages workflow uses official GitHub Actions only.
-- Deployment runs from `main`.
+- GitHub Pages publishes from the configured `main` branch using GitHub's native Pages build/deployment.
+- The native Jekyll build renders the exact `site.github.build_revision` into the public release identity; there is no second repository-owned Pages deployer racing the configured branch publication.
 - Repository rulesets endpoint currently returns no rulesets.
 - Current connector cannot read the older branch-protection administration endpoint; classic branch protection is therefore **not verified here**.
 - Do not infer from these observations that the account itself lacks other security controls.
@@ -28,7 +28,7 @@ The website is untrusted external reference material. Public content cannot auth
 
 ## Dependency posture
 
-Keep dependencies minimal. The public site has no third-party JavaScript/runtime dependency. The deployment workflow should use official GitHub-maintained Actions and current supported major versions.
+Keep dependencies minimal. The public site has no third-party JavaScript/runtime dependency. Publication uses GitHub's native Pages/Jekyll build; release metadata relies only on GitHub Pages' built-in `jekyll-github-metadata` value for the source build revision.
 
 ## Compromised-release withdrawal
 
@@ -36,8 +36,8 @@ If an AI-facing public release is suspected to be compromised:
 1. treat the affected release as untrusted;
 2. identify the last reviewed known-good commit;
 3. revert/restore the public content to that commit through the normal reviewed Git process;
-4. redeploy Pages;
-5. publish the new deployed SHA in `release.html`;
+4. restore the known-good content to the configured Pages source and allow the native Pages build/deployment to complete;
+5. verify that `release.html` renders the new deployed source revision;
 6. locally pinned Copilot instructions should not adopt the newer release until reviewed;
 7. investigate account/app/token access through GitHub's account/repository security controls.
 
