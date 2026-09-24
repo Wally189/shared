@@ -43,7 +43,7 @@ a:focus-visible{outline:3px solid var(--brand-dark);outline-offset:3px}
 .card{border-top:2px solid var(--muted-blue);padding-top:.8rem}
 .card:nth-child(2n){border-top-color:var(--muted-green)}
 .card h3{margin:.2rem 0 .5rem}
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;background:var(--surface)}
+table{display:block;width:100%;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;background:var(--surface)}
 th,td{border-bottom:1px solid var(--line);padding:.65rem .45rem;text-align:left;vertical-align:top}
 th{font-family:Arial,sans-serif;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;color:var(--brand-dark)}
 pre,code{font-family:"Courier New",monospace}
@@ -54,7 +54,7 @@ ul.source-list{padding-left:1.35rem}
 .site-footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;background:#f1f5f5}
 .skip-link{position:absolute;left:-9999px}
 .skip-link:focus{left:1rem;top:1rem;background:#fff;padding:.7rem;z-index:10}
-@media(max-width:38rem){body{font-size:1rem}.site-header{padding:1rem 0 .9rem}.site-subtitle{font-size:.95rem;line-height:1.4;margin-bottom:.85rem}main{padding-top:1.75rem}h1{font-size:2.15rem;margin-bottom:1.5rem}.lede{font-size:1.18rem}h2{font-size:1.5rem;margin-top:2.5rem}table{display:block;overflow-x:auto}nav{font-size:.95rem;gap:.45rem .85rem;line-height:1.45}ul.source-list{padding-left:1.2rem}.source-list li{margin-bottom:.55rem;line-height:1.55}.section-nav{font-size:.9rem;margin:1.25rem 0 1.75rem}}
+@media(max-width:38rem){body{font-size:1rem}.site-header{padding:1rem 0 .9rem}.site-subtitle{font-size:.95rem;line-height:1.4;margin-bottom:.85rem}main{padding-top:1.75rem}h1{font-size:2.15rem;margin-bottom:1.5rem}.lede{font-size:1.18rem}h2{font-size:1.5rem;margin-top:2.5rem}nav{font-size:.95rem;gap:.45rem .85rem;line-height:1.45}ul.source-list{padding-left:1.2rem}.source-list li{margin-bottom:.55rem;line-height:1.55}.section-nav{font-size:.9rem;margin:1.25rem 0 1.75rem}}
 @media print{nav,.skip-link{display:none}body{background:#fff;color:#000}.site-header,.site-footer{background:#fff}a{color:#000}}
 
 .ai-security{border:0;border-top:1px solid var(--line);padding:.38rem 0 0;margin:.8rem 0 1.15rem;background:transparent;color:var(--muted);font-family:Arial,sans-serif;font-size:.76rem;line-height:1.42}
