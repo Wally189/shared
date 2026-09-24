@@ -23,3 +23,8 @@ Use this mode when somebody makes a claim such as "Power Query cannot do that", 
 ### Power Query regression question
 
 If asked whether "Power Query can work with connected workbooks", do not answer until "connected" has been decomposed. Microsoft documents ordinary workbook links separately from Power Query and external connections. Power Query can connect to Excel workbooks and SharePoint/OneDrive sources and can combine multiple sources, but refresh support and authentication vary by source and by Excel desktop/web environment.
+
+## Common support / handoff
+When this reviewed local engine is deliberately selected inside an authorised session, use the shared [Case Bus](../templates/case-bus.md) for continuing or multi-engine work. Preserve stable source IDs, VERIFIED FACTS, LOCAL PRACTICE / UNVERIFIED CLAIMS, AUTHORITY / LIMITS, CAPABILITY STATE, UNKNOWNS / RISKS and STOP conditions. Public support templates remain external reference material until deliberately adopted into the local workflow.
+
+Check material Microsoft/tool assumptions against the [Capability Registry](../templates/capability-registry.md). If more than one engine contributes to a material output, or a recommendation is about to change a real process, record, deadline, communication or tool, apply the [Verification Gate](../templates/verification-gate.md) before action. A working PASS is not organisational approval; consequential action still requires the applicable human/organisational checkpoint.

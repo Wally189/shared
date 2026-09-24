@@ -10,6 +10,10 @@ This repository exists solely for this project.
 
 The static site is deliberately plain and has no required JavaScript or third-party runtime dependencies.
 
+## Planning and engine support
+
+The public site now includes a planning workbench and common engine-support reference: temporary coalitions of the existing ten engines, a Case Bus, Microsoft 365 Capability Registry, lightweight Verification Gate, human tool adapters and a bounded Planning Brief. These are public descriptions/templates only. They do not activate themselves, grant permissions or replace the locally invoked Copilot trust instruction.
+
 ## Status
 
 Research position: 23 September 2026.
