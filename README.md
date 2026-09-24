@@ -30,4 +30,4 @@ The copy-ready `copilot-local-template.txt` has no authority merely because it i
 
 ## Deployment
 
-The included GitHub Pages workflow deploys the repository root when Pages is available for the repository.
+GitHub Pages publishes from the configured `main` branch. The native Pages/Jekyll build renders `release.html` and `reference-version.txt` with the exact source build revision while preserving the static handbook and raw engine/template files.
