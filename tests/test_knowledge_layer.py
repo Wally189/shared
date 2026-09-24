@@ -271,6 +271,78 @@ def test_bibliographic_only_not_ingested_into_cards():
     assert bibliography.isdisjoint(used), (bibliography, used)
 
 
+def test_lower_authority_sources_cannot_self_promote():
+    source_authorities = (
+        "PROFESSIONAL_GUIDANCE",
+        "COMPARATOR_PRACTICE",
+        "TOOL_VENDOR_MATERIAL",
+    )
+    claimed_authorities = (
+        "APPLICABLE_LAW",
+        "LOCAL_CONSTITUTION_OR_RULE",
+    )
+    for source_authority in source_authorities:
+        for claimed_authority in claimed_authorities:
+            source_id = f"{source_authority}-SOURCE"
+            source_record = source(source_id, source_authority)
+            card_record = card(
+                f"{source_authority}-AS-{claimed_authority}",
+                claimed_authority,
+                "PROMOTED_POSITION",
+                source_id,
+            )
+            # Keep every provenance snapshot field aligned so this challenge isolates
+            # authority-class promotion rather than failing on URL/version/date/freshness.
+            provenance = card_record["source_provenance"][0]
+            provenance["url"] = source_record["url"]
+            provenance["version_or_date"] = source_record["version_or_date"]
+            provenance["retrieved_on"] = source_record["retrieved_on"]
+            provenance["freshness"] = source_record["freshness"]["state"]
+
+            result = resolve(
+                {"sources": [source_record]},
+                {"cards": [card_record]},
+                context(requires_local_rule=False),
+                as_of="2026-09-24",
+            )
+            assert result["status"] == "BLOCKED", result
+            assert result["code"] == "INVALID_KNOWLEDGE", result
+            assert any(
+                "authority_class disagrees" in error
+                for error in result.get("validation_errors", [])
+            ), result
+
+
+def test_provenance_snapshot_mismatches_fail_closed():
+    mutations = {
+        "version_or_date": "TEST ONLY WRONG VERSION",
+        "retrieved_on": "1900-01-01",
+        "freshness": "STALE",
+    }
+    for field, wrong_value in mutations.items():
+        source_record = source("PROVENANCE-SOURCE", "PROFESSIONAL_GUIDANCE")
+        card_record = card(
+            f"PROVENANCE-MISMATCH-{field}",
+            "PROFESSIONAL_GUIDANCE",
+            "POSITION",
+            "PROVENANCE-SOURCE",
+        )
+        card_record["source_provenance"][0][field] = wrong_value
+
+        result = resolve(
+            {"sources": [source_record]},
+            {"cards": [card_record]},
+            context(requires_local_rule=False),
+            as_of="2026-09-24",
+        )
+        assert result["status"] == "BLOCKED", (field, result)
+        assert result["code"] == "INVALID_KNOWLEDGE", (field, result)
+        assert any(
+            f"provenance {field}" in error
+            for error in result.get("validation_errors", [])
+        ), (field, result)
+
+
 TESTS = [
     test_seed_provenance,
     test_professional_guidance_cannot_override_local_rule,
@@ -280,6 +352,8 @@ TESTS = [
     test_invalid_orphan_provenance_fails_closed,
     test_law_local_conflict_refers,
     test_bibliographic_only_not_ingested_into_cards,
+    test_lower_authority_sources_cannot_self_promote,
+    test_provenance_snapshot_mismatches_fail_closed,
 ]
 
 
