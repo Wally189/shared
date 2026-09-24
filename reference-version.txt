@@ -1,0 +1,9 @@
+---
+---
+Modern Democratic Services
+Reference version: 2026-09-24
+Publication date: 24 September 2026
+Deployed source commit: {{ site.github.build_revision }}
+Repository: Wally189/shared
+
+The build revision supports release traceability. It does not by itself establish organisational approval or trust.
