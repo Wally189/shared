@@ -104,3 +104,15 @@ ul.source-list{padding-left:1.35rem}
 .progress-rail strong,.progress-rail span{display:block}
 .progress-rail span{font-size:.82rem;color:var(--muted);line-height:1.4;margin-top:.25rem}
 @media(max-width:50rem){.route-grid,.coalition-grid,.case-grid,.plan-board,.stage-row{grid-template-columns:1fr}.trust-band{grid-template-columns:1fr}.progress-rail{grid-template-columns:1fr;overflow:visible}.progress-rail div{min-width:0}.flowline span:not(:last-child)::after{content:""}.route-card{min-height:0}}
+
+
+/* Teaching tranche 01 — static curriculum patterns */
+.learning-path{counter-reset:lesson;list-style:none;padding:0;margin:1.5rem 0}
+.learning-path li{counter-increment:lesson;border-top:1px solid var(--line);padding:1rem 0 1rem 3rem;position:relative;max-width:72ch}
+.learning-path li::before{content:counter(lesson);position:absolute;left:0;top:.9rem;width:2rem;height:2rem;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-family:Arial,sans-serif;font-size:.8rem;font-weight:700;background:var(--surface);color:var(--brand-dark)}
+.try-it{border:1px solid var(--line);border-left:4px solid var(--muted-pink);padding:1rem 1.2rem;margin:1.5rem 0;background:var(--surface)}
+.try-it>p:first-child{margin-top:0}
+.source-note{border-top:1px solid var(--line);padding-top:.8rem;margin:1.6rem 0;color:var(--muted);font-size:.95rem}
+.next-link{font-family:Arial,sans-serif;font-weight:700}
+.decision-steps>li{margin-bottom:.8rem}
+@media(max-width:38rem){.learning-path li{padding-left:2.7rem}.learning-path li::before{width:1.8rem;height:1.8rem}}

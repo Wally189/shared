@@ -1,6 +1,6 @@
 # Public Source Register — Foundation
 
-Research position: 23 September 2026. Re-check currentness before operational use.
+Research position: 24 September 2026. Re-check currentness before operational use.
 
 | ID | Class | Source | Main use |
 |---|---|---|---|
@@ -33,6 +33,27 @@ Research position: 23 September 2026. Re-check currentness before operational us
 | ACC-002 | ACCESSIBILITY STANDARD | WCAG 2.2 Use of Color | Colour is not the sole carrier of meaning |
 
 See sources.html for live URLs.
+
+## Curriculum tranche 01 additions — 24 September 2026
+
+| ID | Class | Source | Main use |
+|---|---|---|---|
+| PROF-001 | PROFESSIONAL BODY | ADSO Training and Qualifications | Professional scope; practitioner-led development across Democratic Services functions |
+| PROF-002 | PROFESSIONAL-BODY LEARNING REFERENCE | ADSO Certificate in Democratic Services Knowledge | Curriculum benchmark: structures/functions, governance, meetings, members/officers and scrutiny |
+| LGA-001 | SECTOR GUIDANCE | LGA councillor/officer relationships workbook | Roles, impartiality, mutual expectations and effective working |
+| LGA-002 | SECTOR GUIDANCE | LGA councillor induction essentials | Staged induction, role understanding, relationships and continuing development |
+| BV-001 | STATUTORY GUIDANCE — ENGLAND | Best value standards and intervention 2024 | Continuous improvement, governance, leadership, culture, capacity/capability and resilience |
+| GOV-001 | PROFESSIONAL GOVERNANCE FRAMEWORK | CIPFA/Solace Delivering Good Governance Framework + 2025 addendum | Governance principles, review and fit-for-purpose assurance |
+
+- PROF-001: https://www.adso.co.uk/adso-training/
+- PROF-002: https://www.adso.co.uk/adso-training/certificate-in-democratic-services-practice/
+- LGA-001: https://www.local.gov.uk/publications/councillors-workbook-effective-councillor-officer-relationships
+- LGA-002: https://www2.local.gov.uk/our-support/councillor-and-officer-development/councillor-development/councillor-development-4
+- BV-001: https://www.gov.uk/government/publications/best-value-standards-and-intervention-a-statutory-guide-for-best-value-authorities/best-value-standards-and-intervention-a-statutory-guide-for-best-value-authorities
+- GOV-001A: https://www.cipfa.org/policy-and-guidance/publications/d/delivering-good-governance-in-local-government-framework-2016-edition
+- GOV-001B: https://www.cipfa.org/policy-and-guidance/standards/delivering-good-governance-in-local-government-addendum
+
+Existing SCR-001 remains the statutory scrutiny source for curriculum content on culture, resourcing, work planning, evidence and training. ADSO and LGA material are professional/sector learning references, not law or local organisational authority. CIPFA/Solace provides a professional governance framework; applicability and statutory duties must still be established from the relevant law and local governance sources.
 
 ## Quiet-modernisation URLs
 
