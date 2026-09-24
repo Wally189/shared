@@ -2,7 +2,7 @@
 
 Date: 24 September 2026
 
-Candidate reviewed: `4ae09b07787ba610185b8d645faa226091a20ca2`
+Candidate content reviewed: `d9b50e91b56fc47ace8159432780d79f2ee64639`
 
 Baseline: `408ecf719148d58d45757ae910e92166cd9a2985`
 
@@ -135,7 +135,7 @@ Why: the page explicitly rejects universal staffing ratios and permits one perso
 
 ## Visual / responsive evidence
 
-Offline screen-media renders were produced from the exact candidate HTML/CSS for the Learn and Service & Team pages at 390px and 1440px. The renderer does not support the candidate's nested CSS `min()` expression inside Grid, so the evidence renderer used an equivalent two-column desktop / one-column mobile grid rule solely for screenshot generation. Candidate source was not altered.
+Offline screen-media renders were produced for the Learn and Service & Team layouts at 390px and 1440px from the initial tranche content. Subsequent candidate commits only hardened source wording, URLs and source-currentness notes; `style.css` and the teaching layout were not changed. A final browser re-render was attempted but blocked by the local browser administrator policy, so these screenshots are retained as layout evidence and are not claimed as an exact-byte render of the final content commit. The evidence renderer used an equivalent two-column desktop / one-column mobile grid rule solely for screenshot generation because it does not support the candidate's nested CSS `min()` expression inside Grid. Candidate source was not altered for the screenshots.
 
 Source-level responsive controls remain the same static CSS family already accepted on main: wrapped navigation, fluid max-width content, single-column mobile teaching path, overflow-contained tables and no script dependency.
 
@@ -148,6 +148,19 @@ This evidence is suitable for candidate visual review but is not claimed as inde
 3. Persona tests are structured simulations, not recruited-user evidence.
 4. External-source availability/currentness should be rechecked at release/research refresh points.
 5. The new professional/sector sources are indexed for curriculum evidence only; the governed AI Knowledge Layer was deliberately not widened in this tranche.
+
+## Final source-currentness and structural recheck
+
+Rechecked against candidate content `d9b50e91b56fc47ace8159432780d79f2ee64639` after source hardening:
+
+- PASS — main remains the commissioned baseline `408ecf719148d58d45757ae910e92166cd9a2985`; candidate is ahead and not merged.
+- PASS — ADSO professional-learning references remain explicitly non-statutory.
+- PASS — LGA councillor/officer and councillor-induction references use the current canonical `www.local.gov.uk` host.
+- PASS — the operative 8 May 2024 Best Value statutory guidance is distinguished from the open 15 July 2026 consultation on revised guidance; the consultation is recorded only as a currentness watch.
+- PASS — CIPFA/Solace governance material remains labelled as a professional governance framework, not law or local constitutional authority.
+- PASS — Learn, Foundations, Decision Journey, Service & Team, Start, Operating Model and Sources each have one H1, one MAIN, `lang=en`, viewport metadata, labelled navigation, zero SCRIPT and zero FORM; no missing internal link was found in that reviewed set.
+- PASS — sitemap contains all four new curriculum routes.
+- PASS — the `engines/` tree SHA and `knowledge/` tree SHA are byte-identical to baseline; the ten-engine and Knowledge Layer estates were not changed.
 
 ## Acceptance
 
