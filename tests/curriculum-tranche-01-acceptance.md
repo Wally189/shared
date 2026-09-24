@@ -42,7 +42,7 @@ New curriculum source classes are explicitly bounded:
 
 - ADSO training / Certificate — PROFESSIONAL BODY / PROFESSIONAL-BODY LEARNING REFERENCE, not law.
 - LGA councillor/officer and induction material — SECTOR GUIDANCE, not local constitutional authority.
-- Best Value guide — STATUTORY GUIDANCE — ENGLAND.
+- Best Value guide — STATUTORY GUIDANCE — ENGLAND; the operative 8 May 2024 guidance is distinguished from the open 15 July 2026 consultation on revised guidance.
 - Existing overview and scrutiny guide — STATUTORY GUIDANCE — ENGLAND.
 - CIPFA/Solace — PROFESSIONAL GOVERNANCE FRAMEWORK, not legislation or local constitutional authority.
 

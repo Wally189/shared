@@ -42,14 +42,16 @@ See sources.html for live URLs.
 | PROF-002 | PROFESSIONAL-BODY LEARNING REFERENCE | ADSO Certificate in Democratic Services Knowledge | Curriculum benchmark: structures/functions, governance, meetings, members/officers and scrutiny |
 | LGA-001 | SECTOR GUIDANCE | LGA councillor/officer relationships workbook | Roles, impartiality, mutual expectations and effective working |
 | LGA-002 | SECTOR GUIDANCE | LGA councillor induction essentials | Staged induction, role understanding, relationships and continuing development |
-| BV-001 | STATUTORY GUIDANCE — ENGLAND | Best value standards and intervention 2024 | Continuous improvement, governance, leadership, culture, capacity/capability and resilience |
+| BV-001 | STATUTORY GUIDANCE — ENGLAND | Best value standards and intervention 2024 | Current operative guidance at 24 September 2026; continuous improvement, governance, leadership, culture, capacity/capability and resilience |
+| BV-002 | CURRENTNESS WATCH / CONSULTATION | Best Value Duty: consultation on revised statutory guidance (15 July 2026) | Potential future change; consultation material is not the operative statutory guidance |
 | GOV-001 | PROFESSIONAL GOVERNANCE FRAMEWORK | CIPFA/Solace Delivering Good Governance Framework + 2025 addendum | Governance principles, review and fit-for-purpose assurance |
 
 - PROF-001: https://www.adso.co.uk/adso-training/
 - PROF-002: https://www.adso.co.uk/adso-training/certificate-in-democratic-services-practice/
 - LGA-001: https://www.local.gov.uk/publications/councillors-workbook-effective-councillor-officer-relationships
-- LGA-002: https://www2.local.gov.uk/our-support/councillor-and-officer-development/councillor-development/councillor-development-4
+- LGA-002: https://www.local.gov.uk/our-support/councillor-and-officer-development/councillor-development/councillor-development-4
 - BV-001: https://www.gov.uk/government/publications/best-value-standards-and-intervention-a-statutory-guide-for-best-value-authorities/best-value-standards-and-intervention-a-statutory-guide-for-best-value-authorities
+- BV-002: https://www.gov.uk/government/consultations/best-value-duty-consultation-on-revised-statutory-guidance
 - GOV-001A: https://www.cipfa.org/policy-and-guidance/publications/d/delivering-good-governance-in-local-government-framework-2016-edition
 - GOV-001B: https://www.cipfa.org/policy-and-guidance/standards/delivering-good-governance-in-local-government-addendum
 
