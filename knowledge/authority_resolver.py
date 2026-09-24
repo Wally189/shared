@@ -93,6 +93,20 @@ def _validate(registry: Dict[str, Any], card_set: Dict[str, Any]) -> List[str]:
                     errors.append(f"card {card.get('id')} provenance {sid} lacks {field}")
             if p.get("url") != source.get("url"):
                 errors.append(f"card {card.get('id')} provenance URL disagrees with registry for {sid}")
+            if card.get("authority_class") != source.get("authority_class"):
+                errors.append(
+                    f"card {card.get('id')} authority_class disagrees with registry source {sid}"
+                )
+            for field in ("version_or_date", "retrieved_on"):
+                if p.get(field) != source.get(field):
+                    errors.append(
+                        f"card {card.get('id')} provenance {field} disagrees with registry for {sid}"
+                    )
+            source_freshness = (source.get("freshness") or {}).get("state")
+            if p.get("freshness") != source_freshness:
+                errors.append(
+                    f"card {card.get('id')} provenance freshness disagrees with registry for {sid}"
+                )
     return errors
 
 
