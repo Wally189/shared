@@ -1,6 +1,6 @@
 # Reference Architecture — concise baseline
 
-Research position: 23 September 2026.
+Research position: 24 September 2026.
 
 ## Five layers
 Authority → Knowledge → Decision Flow → Workbench → Assurance & Improvement.
@@ -20,11 +20,18 @@ Reference flow:
 `LOCAL INSTRUCTION → CASE BUS → SMALLEST USEFUL ENGINE COALITION → VERIFICATION GATE → HUMAN / ORGANISATIONAL CHECKPOINT → EVIDENCE → CONTINUE OR STOP`
 
 The common support layer contains:
-- one Case Bus that preserves sources, facts, local practice, authority limits, capability state, unknowns and STOP conditions across handoffs;
+- one Case Bus that preserves sources, facts, local practice, authority limits, Knowledge Context, capability state, unknowns and STOP conditions across handoffs;
+- one governed Democratic Services Knowledge Layer: Public Knowledge Source Registry + small provenance-rich Knowledge Cards + deterministic Authority Resolver + authorised local overlay;
 - one Microsoft 365 Capability Registry using AVAILABLE / LIMITED / NOT AVAILABLE / UNKNOWN;
 - one lightweight Verification Gate for material multi-engine outputs and real process/tool changes;
 - human tool adapters for bounded use of Excel/Power Query, Outlook/shared mailboxes, OneNote, OneDrive/SharePoint/Lists and Copilot;
 - one Progress Block for continuity; organisational systems remain authoritative.
+
+Knowledge resolution order:
+
+`APPLICABLE LAW → LOCAL CONSTITUTION / RULE → COMPETENT OFFICIAL GUIDANCE → PROFESSIONAL GUIDANCE → COMPARATOR PRACTICE → TOOL / VENDOR MATERIAL`
+
+Applicability is tested before rank. Law/local apparent conflict stops for competent interpretation; missing required local rules fail closed; stale higher authority cannot be silently replaced by lower authority; and a verified local rule is not silently displaced by external professional practice. The Knowledge Layer grants no action authority. Commercial/copyrighted works may be registered bibliographically without ingesting their text.
 
 Temporary engine coalitions combine the existing ten engines according to the problem. They are not new engines, autonomous agents or authority sources. Typical patterns include process archaeology (01+02+09+10), committee cycle (03+04+05+07+08), decision integrity (02+03+05+10), Microsoft reality (01+02+09+10), meeting-to-memory (04+05+06+07), and communication under deadline pressure (05+07+08+10).
 

@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "research_position": "2026-09-24",
+  "cards": [
+    {
+      "id": "KC-LGA1972-AGENDA-ACCESS",
+      "question_key": "meeting.agenda_public_access",
+      "answer_key": "FIVE_CLEAR_DAYS_WITH_STATUTORY_EXCEPTIONS",
+      "proposition": "Where section 100B applies to a principal council meeting in England, agendas and connected reports required by the section are normally open to public inspection at least five clear days before the meeting, subject to the statutory shorter-notice, added-item and availability exceptions; the urgency route requires special circumstances to be specified in the minutes.",
+      "authority_class": "APPLICABLE_LAW",
+      "applicability": {
+        "jurisdictions": ["England"],
+        "organisation_scope": "GENERIC_NOT_LOCAL_DELEGATION",
+        "body_types": ["principal_council"],
+        "topics": ["meeting_procedure", "agenda", "public_access", "urgency"]
+      },
+      "limitations": [
+        "Check the current text, amendments and whether section 100B applies to the exact authority/body/meeting.",
+        "This proposition does not create a local internal report-drafting or clearance deadline.",
+        "A local constitution may add lawful procedural detail but cannot displace applicable law."
+      ],
+      "source_provenance": [
+        {
+          "source_id": "LAW-LGA1972-100B",
+          "url": "https://www.legislation.gov.uk/ukpga/1972/70/section/100B",
+          "version_or_date": "1972 c.70, s.100B; current text must be rechecked before operational use",
+          "retrieved_on": "2026-09-24",
+          "freshness": "CURRENT_CHECKED"
+        }
+      ],
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null
+      }
+    },
+    {
+      "id": "KC-EXEC2012-PUBLIC-MEETING",
+      "question_key": "meeting.executive_public_access",
+      "answer_key": "PUBLIC_SUBJECT_TO_STATUTORY_EXCLUSIONS",
+      "proposition": "For decision-making bodies within the 2012 Regulations' scope, executive meetings are generally held/open in public subject to the Regulations' specified exclusions and procedures.",
+      "authority_class": "APPLICABLE_LAW",
+      "applicability": {
+        "jurisdictions": ["England"],
+        "organisation_scope": "GENERIC_NOT_LOCAL_DELEGATION",
+        "body_types": ["executive", "executive_committee"],
+        "topics": ["meeting_procedure", "public_access", "executive"]
+      },
+      "limitations": [
+        "Confirm the authority and decision-making body are within scope and check current amendments.",
+        "Does not establish local delegation, terms of reference or internal publication workflow."
+      ],
+      "source_provenance": [
+        {
+          "source_id": "LAW-EXEC-2012",
+          "url": "https://www.legislation.gov.uk/uksi/2012/2089",
+          "version_or_date": "S.I. 2012/2089; current text and amendments must be rechecked before operational use",
+          "retrieved_on": "2026-09-24",
+          "freshness": "CURRENT_CHECKED"
+        }
+      ],
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null
+      }
+    },
+    {
+      "id": "KC-ADSO-MEETINGS-LEARNING",
+      "question_key": "professional.meeting_procedure_learning",
+      "answer_key": "LEGAL_GOVERNANCE_FRAMEWORK_PLUS_PRACTICAL_APPLICATION",
+      "proposition": "ADSO's 2026 Meetings Procedures training is framed around developing Democratic Services Officers' understanding of the legal and governance framework and its practical application; ADSO also offers a Law and Practice course for councils and combined authorities.",
+      "authority_class": "PROFESSIONAL_GUIDANCE",
+      "applicability": {
+        "jurisdictions": ["England", "Wales"],
+        "organisation_scope": "PROFESSIONAL_REFERENCE_ONLY",
+        "body_types": [],
+        "topics": ["meeting_procedure", "professional_development"]
+      },
+      "limitations": [
+        "This is evidence of a professional learning domain, not a binding rule.",
+        "Public course descriptions do not substitute for legislation, a local constitution or course/member-only materials."
+      ],
+      "source_provenance": [
+        {
+          "source_id": "ADSO-TRAINING-2026",
+          "url": "https://www.adso.co.uk/adso-training/book-your-course/",
+          "version_or_date": "2026 training programme page",
+          "retrieved_on": "2026-09-24",
+          "freshness": "CURRENT_CHECKED"
+        }
+      ],
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null
+      }
+    },
+    {
+      "id": "KC-ADSO-MODERN-DEMOCRACY",
+      "question_key": "professional.modern_democracy",
+      "answer_key": "DIGITAL_AI_PARTICIPATION_WITH_TRANSPARENCY_ACCOUNTABILITY",
+      "proposition": "ADSO's Working in a Modern Democracy programme explicitly explores digital tools and culture, citizen expectations and participation, data and AI, changing professional skills, and keeping transparency and accountability while councils digitalise.",
+      "authority_class": "PROFESSIONAL_GUIDANCE",
+      "applicability": {
+        "jurisdictions": ["England", "Wales"],
+        "organisation_scope": "PROFESSIONAL_REFERENCE_ONLY",
+        "body_types": [],
+        "topics": ["digital", "ai", "participation", "professional_development"]
+      },
+      "limitations": [
+        "This supports improvement and professional-development thinking only.",
+        "It does not authorise technology use, determine local policy or override governance rules."
+      ],
+      "source_provenance": [
+        {
+          "source_id": "ADSO-MODERN-DEMOCRACY",
+          "url": "https://www.adso.co.uk/moderndemocracy/",
+          "version_or_date": "Programme page; includes 2024 report and continuing programme",
+          "retrieved_on": "2026-09-24",
+          "freshness": "CURRENT_CHECKED"
+        }
+      ],
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null
+      }
+    }
+  ]
+}
