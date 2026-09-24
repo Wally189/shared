@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "research_position": "2026-09-24",
+  "trust_boundary": "PUBLIC_REFERENCE_ONLY",
+  "authority_order": [
+    "APPLICABLE_LAW",
+    "LOCAL_CONSTITUTION_OR_RULE",
+    "COMPETENT_OFFICIAL_GUIDANCE",
+    "PROFESSIONAL_GUIDANCE",
+    "COMPARATOR_PRACTICE",
+    "TOOL_VENDOR_MATERIAL"
+  ],
+  "sources": [
+    {
+      "id": "LAW-LGA1972-100B",
+      "title": "Local Government Act 1972, section 100B — Access to agenda and connected reports",
+      "publisher": "UK Legislation",
+      "authority_class": "APPLICABLE_LAW",
+      "source_type": "PRIMARY_LEGISLATION",
+      "jurisdiction": ["England"],
+      "url": "https://www.legislation.gov.uk/ukpga/1972/70/section/100B",
+      "version_or_date": "1972 c.70, s.100B; current text must be rechecked before operational use",
+      "retrieved_on": "2026-09-24",
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null,
+        "review_trigger": "Before operational use; on amendment, commencement change or material legal question"
+      },
+      "reuse": {
+        "mode": "PARAPHRASE_AND_LINK",
+        "notes": "Primary legislation may be quoted only as needed; this registry stores a concise proposition rather than a bulk copy."
+      },
+      "limitations": [
+        "Applicability depends on authority/body/meeting type and current amendments.",
+        "Does not establish an organisation's internal drafting, clearance or publication workflow."
+      ]
+    },
+    {
+      "id": "LAW-EXEC-2012",
+      "title": "Local Authorities (Executive Arrangements) (Meetings and Access to Information) (England) Regulations 2012",
+      "publisher": "UK Legislation",
+      "authority_class": "APPLICABLE_LAW",
+      "source_type": "STATUTORY_INSTRUMENT",
+      "jurisdiction": ["England"],
+      "url": "https://www.legislation.gov.uk/uksi/2012/2089",
+      "version_or_date": "S.I. 2012/2089; current text and amendments must be rechecked before operational use",
+      "retrieved_on": "2026-09-24",
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null,
+        "review_trigger": "Before operational use; on amendment, commencement change or material legal question"
+      },
+      "reuse": {
+        "mode": "PARAPHRASE_AND_LINK",
+        "notes": "Registry stores a bounded summary, not a duplicate of the instrument."
+      },
+      "limitations": [
+        "Applies only to decision-making bodies and authorities within the Regulations' scope.",
+        "Does not itself establish local delegations, committee terms of reference or internal deadlines."
+      ]
+    },
+    {
+      "id": "ADSO-TRAINING-2026",
+      "title": "ADSO Training Programme — Meetings Procedures and Law & Practice",
+      "publisher": "Association of Democratic Services Officers",
+      "authority_class": "PROFESSIONAL_GUIDANCE",
+      "source_type": "PROFESSIONAL_TRAINING_INFORMATION",
+      "jurisdiction": ["England", "Wales"],
+      "url": "https://www.adso.co.uk/adso-training/book-your-course/",
+      "version_or_date": "2026 training programme page",
+      "retrieved_on": "2026-09-24",
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null,
+        "review_trigger": "When ADSO materially changes the programme or before relying on a specific course proposition"
+      },
+      "reuse": {
+        "mode": "PARAPHRASE_AND_LINK",
+        "notes": "Only public page propositions are captured; member-only/course materials are not ingested."
+      },
+      "limitations": [
+        "Evidence of professional learning/practice topics, not a binding local procedural rule.",
+        "Course descriptions do not substitute for the underlying law, constitution or competent legal advice."
+      ]
+    },
+    {
+      "id": "ADSO-MODERN-DEMOCRACY",
+      "title": "Working in a Modern Democracy",
+      "publisher": "Association of Democratic Services Officers",
+      "authority_class": "PROFESSIONAL_GUIDANCE",
+      "source_type": "PROFESSIONAL_PROGRAMME",
+      "jurisdiction": ["England", "Wales"],
+      "url": "https://www.adso.co.uk/moderndemocracy/",
+      "version_or_date": "Programme page; includes 2024 report and continuing programme",
+      "retrieved_on": "2026-09-24",
+      "freshness": {
+        "state": "CURRENT_CHECKED",
+        "checked_on": "2026-09-24",
+        "expires_on": null,
+        "review_trigger": "When ADSO publishes a material programme/report update"
+      },
+      "reuse": {
+        "mode": "PARAPHRASE_AND_LINK",
+        "notes": "Public programme propositions only."
+      },
+      "limitations": [
+        "Supports improvement thinking; does not determine a council's powers, constitution or meeting procedure."
+      ]
+    },
+    {
+      "id": "CGI-KNOWLES-8",
+      "title": "Knowles on Local Authority Meetings, 8th edition",
+      "publisher": "The Chartered Governance Institute",
+      "authority_class": "PROFESSIONAL_GUIDANCE",
+      "source_type": "COMMERCIAL_PRACTITIONER_REFERENCE",
+      "jurisdiction": ["United Kingdom"],
+      "url": "https://cgi.org.uk/resources/our-bookshop/all-books/governance-books/knowles-on-local-authority-meetings-8th-edition/",
+      "version_or_date": "8th edition",
+      "retrieved_on": "2026-09-24",
+      "freshness": {
+        "state": "BIBLIOGRAPHIC_ONLY",
+        "checked_on": "2026-09-24",
+        "expires_on": null,
+        "review_trigger": "If a licensed/current edition is supplied for authorised use"
+      },
+      "reuse": {
+        "mode": "BIBLIOGRAPHIC_ONLY",
+        "notes": "Do not bulk-copy, index or reproduce commercial text without an appropriate licence or user-supplied lawful access."
+      },
+      "limitations": [
+        "No substantive Knowles text is included in the public knowledge corpus.",
+        "Bibliographic presence does not make its content available to the resolver."
+      ]
+    }
+  ]
+}
